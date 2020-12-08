@@ -1,7 +1,8 @@
 ﻿namespace SoftGamesShop.Data.Models
 {
-    using SoftGamesShop.Data.Common.Models;
     using System.ComponentModel.DataAnnotations;
+
+    using SoftGamesShop.Data.Common.Models;
 
     public class Vote : BaseDeletableModel<int>
     {

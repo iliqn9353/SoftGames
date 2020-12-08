@@ -6,7 +6,7 @@
     using SoftGamesShop.Data.Common.Repositories;
     using SoftGamesShop.Data.Models;
 
-   public class VotesService : IVotesService
+    public class VotesService : IVotesService
     {
         private readonly IRepository<Vote> votesRepository;
 

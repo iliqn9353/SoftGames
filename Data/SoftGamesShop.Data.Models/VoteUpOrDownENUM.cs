@@ -2,7 +2,7 @@
 {
     public enum VoteUpOrDownENUM
     {
-        VoteDown = VoteUp - 1,
+        VoteDown = -1,
         NoVote = 0,
         VoteUp = 1,
     }
