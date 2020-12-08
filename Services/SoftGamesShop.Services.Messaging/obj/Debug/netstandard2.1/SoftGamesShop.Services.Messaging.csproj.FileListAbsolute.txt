@@ -1,0 +1,54 @@
+C:\Users\iliqn\Desktop\SoftGamesShop\Services\SoftGamesShop.Services.Messaging\bin\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.deps.json
+C:\Users\iliqn\Desktop\SoftGamesShop\Services\SoftGamesShop.Services.Messaging\bin\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.dll
+C:\Users\iliqn\Desktop\SoftGamesShop\Services\SoftGamesShop.Services.Messaging\bin\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.pdb
+C:\Users\iliqn\Desktop\SoftGamesShop\Services\SoftGamesShop.Services.Messaging\obj\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.csprojAssemblyReference.cache
+C:\Users\iliqn\Desktop\SoftGamesShop\Services\SoftGamesShop.Services.Messaging\obj\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.AssemblyInfoInputs.cache
+C:\Users\iliqn\Desktop\SoftGamesShop\Services\SoftGamesShop.Services.Messaging\obj\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.AssemblyInfo.cs
+C:\Users\iliqn\Desktop\SoftGamesShop\Services\SoftGamesShop.Services.Messaging\obj\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.dll
+C:\Users\iliqn\Desktop\SoftGamesShop\Services\SoftGamesShop.Services.Messaging\obj\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.pdb
+C:\Users\iliqn\Desktop\SoftGamesShop\Services\SoftGamesShop.Services.Messaging\obj\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.csproj.CoreCompileInputs.cache
+C:\Users\iliqn\Desktop\SoftGamesShop-main-main-main\Services\SoftGamesShop.Services.Messaging\bin\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.deps.json
+C:\Users\iliqn\Desktop\SoftGamesShop-main-main-main\Services\SoftGamesShop.Services.Messaging\bin\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.dll
+C:\Users\iliqn\Desktop\SoftGamesShop-main-main-main\Services\SoftGamesShop.Services.Messaging\bin\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.pdb
+C:\Users\iliqn\Desktop\SoftGamesShop-main-main-main\Services\SoftGamesShop.Services.Messaging\obj\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.csprojAssemblyReference.cache
+C:\Users\iliqn\Desktop\SoftGamesShop-main-main-main\Services\SoftGamesShop.Services.Messaging\obj\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.AssemblyInfoInputs.cache
+C:\Users\iliqn\Desktop\SoftGamesShop-main-main-main\Services\SoftGamesShop.Services.Messaging\obj\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.AssemblyInfo.cs
+C:\Users\iliqn\Desktop\SoftGamesShop-main-main-main\Services\SoftGamesShop.Services.Messaging\obj\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.csproj.CoreCompileInputs.cache
+C:\Users\iliqn\Desktop\SoftGamesShop-main-main-main\Services\SoftGamesShop.Services.Messaging\obj\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.dll
+C:\Users\iliqn\Desktop\SoftGamesShop-main-main-main\Services\SoftGamesShop.Services.Messaging\obj\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.pdb
+C:\Users\Ico\Desktop\SoftGamesShop-newest-main\Services\SoftGamesShop.Services.Messaging\bin\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.deps.json
+C:\Users\Ico\Desktop\SoftGamesShop-newest-main\Services\SoftGamesShop.Services.Messaging\bin\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.dll
+C:\Users\Ico\Desktop\SoftGamesShop-newest-main\Services\SoftGamesShop.Services.Messaging\bin\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.pdb
+C:\Users\Ico\Desktop\SoftGamesShop-newest-main\Services\SoftGamesShop.Services.Messaging\obj\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.csprojAssemblyReference.cache
+C:\Users\Ico\Desktop\SoftGamesShop-newest-main\Services\SoftGamesShop.Services.Messaging\obj\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.AssemblyInfoInputs.cache
+C:\Users\Ico\Desktop\SoftGamesShop-newest-main\Services\SoftGamesShop.Services.Messaging\obj\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.AssemblyInfo.cs
+C:\Users\Ico\Desktop\SoftGamesShop-newest-main\Services\SoftGamesShop.Services.Messaging\obj\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.csproj.CoreCompileInputs.cache
+C:\Users\Ico\Desktop\SoftGamesShop-newest-main\Services\SoftGamesShop.Services.Messaging\obj\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.dll
+C:\Users\Ico\Desktop\SoftGamesShop-newest-main\Services\SoftGamesShop.Services.Messaging\obj\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.pdb
+C:\Users\Ico\Desktop\New folder\SoftGamesShop-newest-down-main\Services\SoftGamesShop.Services.Messaging\bin\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.deps.json
+C:\Users\Ico\Desktop\New folder\SoftGamesShop-newest-down-main\Services\SoftGamesShop.Services.Messaging\bin\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.dll
+C:\Users\Ico\Desktop\New folder\SoftGamesShop-newest-down-main\Services\SoftGamesShop.Services.Messaging\bin\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.pdb
+C:\Users\Ico\Desktop\New folder\SoftGamesShop-newest-down-main\Services\SoftGamesShop.Services.Messaging\obj\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.csprojAssemblyReference.cache
+C:\Users\Ico\Desktop\New folder\SoftGamesShop-newest-down-main\Services\SoftGamesShop.Services.Messaging\obj\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.AssemblyInfoInputs.cache
+C:\Users\Ico\Desktop\New folder\SoftGamesShop-newest-down-main\Services\SoftGamesShop.Services.Messaging\obj\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.AssemblyInfo.cs
+C:\Users\Ico\Desktop\New folder\SoftGamesShop-newest-down-main\Services\SoftGamesShop.Services.Messaging\obj\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.csproj.CoreCompileInputs.cache
+C:\Users\Ico\Desktop\New folder\SoftGamesShop-newest-down-main\Services\SoftGamesShop.Services.Messaging\obj\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.dll
+C:\Users\Ico\Desktop\New folder\SoftGamesShop-newest-down-main\Services\SoftGamesShop.Services.Messaging\obj\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.pdb
+C:\Users\iliqn\Desktop\SoftGamesShop-newest-down-main-main\Services\SoftGamesShop.Services.Messaging\bin\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.deps.json
+C:\Users\iliqn\Desktop\SoftGamesShop-newest-down-main-main\Services\SoftGamesShop.Services.Messaging\bin\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.dll
+C:\Users\iliqn\Desktop\SoftGamesShop-newest-down-main-main\Services\SoftGamesShop.Services.Messaging\bin\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.pdb
+C:\Users\iliqn\Desktop\SoftGamesShop-newest-down-main-main\Services\SoftGamesShop.Services.Messaging\obj\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.csprojAssemblyReference.cache
+C:\Users\iliqn\Desktop\SoftGamesShop-newest-down-main-main\Services\SoftGamesShop.Services.Messaging\obj\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.AssemblyInfoInputs.cache
+C:\Users\iliqn\Desktop\SoftGamesShop-newest-down-main-main\Services\SoftGamesShop.Services.Messaging\obj\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.AssemblyInfo.cs
+C:\Users\iliqn\Desktop\SoftGamesShop-newest-down-main-main\Services\SoftGamesShop.Services.Messaging\obj\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.csproj.CoreCompileInputs.cache
+C:\Users\iliqn\Desktop\SoftGamesShop-newest-down-main-main\Services\SoftGamesShop.Services.Messaging\obj\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.dll
+C:\Users\iliqn\Desktop\SoftGamesShop-newest-down-main-main\Services\SoftGamesShop.Services.Messaging\obj\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.pdb
+C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Services\SoftGamesShop.Services.Messaging\bin\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.deps.json
+C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Services\SoftGamesShop.Services.Messaging\bin\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.dll
+C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Services\SoftGamesShop.Services.Messaging\bin\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.pdb
+C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Services\SoftGamesShop.Services.Messaging\obj\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.csprojAssemblyReference.cache
+C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Services\SoftGamesShop.Services.Messaging\obj\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.AssemblyInfoInputs.cache
+C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Services\SoftGamesShop.Services.Messaging\obj\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.AssemblyInfo.cs
+C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Services\SoftGamesShop.Services.Messaging\obj\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.csproj.CoreCompileInputs.cache
+C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Services\SoftGamesShop.Services.Messaging\obj\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.dll
+C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Services\SoftGamesShop.Services.Messaging\obj\Debug\netstandard2.1\SoftGamesShop.Services.Messaging.pdb

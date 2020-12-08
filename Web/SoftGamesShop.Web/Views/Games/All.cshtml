@@ -1,0 +1,47 @@
+﻿@model SoftGamesShop.Web.ViewModels.Game.AllGamesListViewModel
+
+@{ ViewData["Title"] = "All Games" + " " + "Page" + " " + Model.PageNumber; }
+<h4 class="text-center text-uppercase">List of Games</h4>
+<form asp-controller="Games" asp-action="Search" method="get">
+
+    <div class="form-group">
+        <div class="input-group">
+            <input class="form-control" type="text" placeholder="Search By Name" name="searchString" value="@ViewData["currentFilter"]" />
+            <span class="input-group-btn">
+                <input type="submit" value="Search" class="btn btn-success" />
+            </span>
+        </div>
+    </div>
+  
+</form>
+<div class="row mt-2 mb-4">
+    @foreach (var item in Model.Games)
+    {
+    <div class="card col-6 col-lg-3 game-card">
+        
+            <div style="padding-bottom:11px; height:100%">
+
+
+                <div class="card border-primary" style="height: 100%">
+                    <img class="card-img-top" alt="@item.Name" src="@item.ImageUrl"
+                         class="rounded"
+                             height="350" width="200">
+                    <div class="card-body card-noboday" style="text-align:center;">
+                    </div>
+                    <div class="card-footer bg-transparent" style="text-align:center;">
+                        <a asp-action="ById" asp-route-id="@item.Id">@item.Name</a>
+
+                        <p>Release Date: @item.ReleaseDate.ToString("dd/MM/yyyy")</p>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    }
+    </div>
+
+    <partial name="_PagingPartial" model="@Model" />
+
+

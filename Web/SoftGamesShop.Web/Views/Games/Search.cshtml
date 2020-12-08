@@ -1,0 +1,30 @@
+﻿@model SoftGamesShop.Web.ViewModels.Search.SearchGameViewModel
+@{
+    ViewData["Title"] = "Search result" + " " + "Page" + " " + Model.PageNumber; ;
+}
+
+@*<h1>@ViewData["Title"]</h1>*@
+
+@if (!Model.Games.Any())
+{
+    <p>Nothing found.</p>
+}
+else
+{<h1 class="text-center">@ViewData["Title"]</h1>
+<div class="row">
+    @foreach (var game in this.Model.Games)
+    {
+        <div class="card col-md-3">
+            <img class="card-img-top" src="@game.ImageUrl" alt="@game.Name"
+                  class="rounded"
+                             height="350" width="200">
+            <div class="card-body">
+                <a asp-controller="Games" asp-action="ById" asp-route-id="@game.Id">@game.Name</a>
+                <p>Release Date: @game.ReleaseDate.ToString("dd/MM/yyyy")</p>
+            </div>
+        </div>
+        
+    }
+</div>
+<partial name="_PagingPartial" model="@Model" />
+}

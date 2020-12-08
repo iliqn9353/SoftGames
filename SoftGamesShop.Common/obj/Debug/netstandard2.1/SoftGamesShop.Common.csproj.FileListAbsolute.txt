@@ -1,0 +1,63 @@
+C:\Users\iliqn\Desktop\SoftGamesShop\SoftGamesShop.Common\bin\Debug\netstandard2.1\SoftGamesShop.Common.deps.json
+C:\Users\iliqn\Desktop\SoftGamesShop\SoftGamesShop.Common\bin\Debug\netstandard2.1\SoftGamesShop.Common.dll
+C:\Users\iliqn\Desktop\SoftGamesShop\SoftGamesShop.Common\bin\Debug\netstandard2.1\SoftGamesShop.Common.pdb
+C:\Users\iliqn\Desktop\SoftGamesShop\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.csprojAssemblyReference.cache
+C:\Users\iliqn\Desktop\SoftGamesShop\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.AssemblyInfoInputs.cache
+C:\Users\iliqn\Desktop\SoftGamesShop\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.AssemblyInfo.cs
+C:\Users\iliqn\Desktop\SoftGamesShop\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.dll
+C:\Users\iliqn\Desktop\SoftGamesShop\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.pdb
+C:\Users\iliqn\Desktop\SoftGamesShop\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.csproj.CoreCompileInputs.cache
+C:\Users\iliqn\Desktop\SoftGamesShop-main-main-main\SoftGamesShop.Common\bin\Debug\netstandard2.1\SoftGamesShop.Common.deps.json
+C:\Users\iliqn\Desktop\SoftGamesShop-main-main-main\SoftGamesShop.Common\bin\Debug\netstandard2.1\SoftGamesShop.Common.dll
+C:\Users\iliqn\Desktop\SoftGamesShop-main-main-main\SoftGamesShop.Common\bin\Debug\netstandard2.1\SoftGamesShop.Common.pdb
+C:\Users\iliqn\Desktop\SoftGamesShop-main-main-main\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.csprojAssemblyReference.cache
+C:\Users\iliqn\Desktop\SoftGamesShop-main-main-main\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.AssemblyInfoInputs.cache
+C:\Users\iliqn\Desktop\SoftGamesShop-main-main-main\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.AssemblyInfo.cs
+C:\Users\iliqn\Desktop\SoftGamesShop-main-main-main\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.csproj.CoreCompileInputs.cache
+C:\Users\iliqn\Desktop\SoftGamesShop-main-main-main\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.dll
+C:\Users\iliqn\Desktop\SoftGamesShop-main-main-main\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.pdb
+C:\Users\iliqn\Desktop\SoftGamesShop-main-main-main-main\SoftGamesShop.Common\bin\Debug\netstandard2.1\SoftGamesShop.Common.deps.json
+C:\Users\iliqn\Desktop\SoftGamesShop-main-main-main-main\SoftGamesShop.Common\bin\Debug\netstandard2.1\SoftGamesShop.Common.dll
+C:\Users\iliqn\Desktop\SoftGamesShop-main-main-main-main\SoftGamesShop.Common\bin\Debug\netstandard2.1\SoftGamesShop.Common.pdb
+C:\Users\iliqn\Desktop\SoftGamesShop-main-main-main-main\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.csprojAssemblyReference.cache
+C:\Users\iliqn\Desktop\SoftGamesShop-main-main-main-main\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.AssemblyInfoInputs.cache
+C:\Users\iliqn\Desktop\SoftGamesShop-main-main-main-main\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.AssemblyInfo.cs
+C:\Users\iliqn\Desktop\SoftGamesShop-main-main-main-main\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.csproj.CoreCompileInputs.cache
+C:\Users\iliqn\Desktop\SoftGamesShop-main-main-main-main\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.dll
+C:\Users\iliqn\Desktop\SoftGamesShop-main-main-main-main\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.pdb
+C:\Users\Ico\Desktop\SoftGamesShop-newest-main\SoftGamesShop.Common\bin\Debug\netstandard2.1\SoftGamesShop.Common.deps.json
+C:\Users\Ico\Desktop\SoftGamesShop-newest-main\SoftGamesShop.Common\bin\Debug\netstandard2.1\SoftGamesShop.Common.dll
+C:\Users\Ico\Desktop\SoftGamesShop-newest-main\SoftGamesShop.Common\bin\Debug\netstandard2.1\SoftGamesShop.Common.pdb
+C:\Users\Ico\Desktop\SoftGamesShop-newest-main\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.csprojAssemblyReference.cache
+C:\Users\Ico\Desktop\SoftGamesShop-newest-main\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.AssemblyInfoInputs.cache
+C:\Users\Ico\Desktop\SoftGamesShop-newest-main\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.AssemblyInfo.cs
+C:\Users\Ico\Desktop\SoftGamesShop-newest-main\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.csproj.CoreCompileInputs.cache
+C:\Users\Ico\Desktop\SoftGamesShop-newest-main\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.dll
+C:\Users\Ico\Desktop\SoftGamesShop-newest-main\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.pdb
+C:\Users\Ico\Desktop\New folder\SoftGamesShop-newest-down-main\SoftGamesShop.Common\bin\Debug\netstandard2.1\SoftGamesShop.Common.deps.json
+C:\Users\Ico\Desktop\New folder\SoftGamesShop-newest-down-main\SoftGamesShop.Common\bin\Debug\netstandard2.1\SoftGamesShop.Common.dll
+C:\Users\Ico\Desktop\New folder\SoftGamesShop-newest-down-main\SoftGamesShop.Common\bin\Debug\netstandard2.1\SoftGamesShop.Common.pdb
+C:\Users\Ico\Desktop\New folder\SoftGamesShop-newest-down-main\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.csprojAssemblyReference.cache
+C:\Users\Ico\Desktop\New folder\SoftGamesShop-newest-down-main\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.AssemblyInfoInputs.cache
+C:\Users\Ico\Desktop\New folder\SoftGamesShop-newest-down-main\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.AssemblyInfo.cs
+C:\Users\Ico\Desktop\New folder\SoftGamesShop-newest-down-main\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.csproj.CoreCompileInputs.cache
+C:\Users\Ico\Desktop\New folder\SoftGamesShop-newest-down-main\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.dll
+C:\Users\Ico\Desktop\New folder\SoftGamesShop-newest-down-main\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.pdb
+C:\Users\iliqn\Desktop\SoftGamesShop-newest-down-main-main\SoftGamesShop.Common\bin\Debug\netstandard2.1\SoftGamesShop.Common.deps.json
+C:\Users\iliqn\Desktop\SoftGamesShop-newest-down-main-main\SoftGamesShop.Common\bin\Debug\netstandard2.1\SoftGamesShop.Common.dll
+C:\Users\iliqn\Desktop\SoftGamesShop-newest-down-main-main\SoftGamesShop.Common\bin\Debug\netstandard2.1\SoftGamesShop.Common.pdb
+C:\Users\iliqn\Desktop\SoftGamesShop-newest-down-main-main\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.csprojAssemblyReference.cache
+C:\Users\iliqn\Desktop\SoftGamesShop-newest-down-main-main\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.AssemblyInfoInputs.cache
+C:\Users\iliqn\Desktop\SoftGamesShop-newest-down-main-main\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.AssemblyInfo.cs
+C:\Users\iliqn\Desktop\SoftGamesShop-newest-down-main-main\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.csproj.CoreCompileInputs.cache
+C:\Users\iliqn\Desktop\SoftGamesShop-newest-down-main-main\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.dll
+C:\Users\iliqn\Desktop\SoftGamesShop-newest-down-main-main\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.pdb
+C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\SoftGamesShop.Common\bin\Debug\netstandard2.1\SoftGamesShop.Common.deps.json
+C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\SoftGamesShop.Common\bin\Debug\netstandard2.1\SoftGamesShop.Common.dll
+C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\SoftGamesShop.Common\bin\Debug\netstandard2.1\SoftGamesShop.Common.pdb
+C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.csprojAssemblyReference.cache
+C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.AssemblyInfoInputs.cache
+C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.AssemblyInfo.cs
+C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.csproj.CoreCompileInputs.cache
+C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.dll
+C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\SoftGamesShop.Common\obj\Debug\netstandard2.1\SoftGamesShop.Common.pdb

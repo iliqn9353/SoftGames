@@ -1,0 +1,82 @@
+﻿@model SoftGamesShop.Data.Models.ContactsModel
+@{
+    ViewData["Title"] = "Contact";
+}
+<h3>Send Us an email!</h3>
+@using (Html.BeginForm("SendMail", "Contacts"))
+{
+    <div class="has-error" col-md-12>
+        <form method="post">
+            <div class="row">
+                <div class="form-group col-md-4">
+                    <label asp-for="Name">Name:</label>
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-muted"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-md-4">
+                    <label asp-for="Email">Email:</label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-muted"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-md-4">
+                    <label asp-for="Subject">Subject:</label>
+                    <input asp-for="Subject" class="form-control" />
+                    <span asp-validation-for="Subject" class="text-muted"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-md-6">
+                    <label asp-for="Message">Message:</label>
+                    <textarea rows="8" cols="20" asp-for="Message" class="form-control"></textarea>
+                    <span asp-validation-for="Message" class="text-muted"></span>
+                </div>
+            </div>
+            <div>
+                <button type="submit" class="btn btn-success">Send Message</button>
+            </div>
+        </form>
+    </div>
+
+
+}
+
+<html>
+<head>
+    <script src="https://maps.googleapis.com/maps/api/js?"></script>
+</head>
+<body>
+    <input type="button" value="Click to Display Map" onclick="DisplayGoogleMap()" />
+    <div id="myDiv" style="width:90%;height:300px;"></div>
+
+    <script type="text/javascript">
+        function DisplayGoogleMap() {
+
+            //Set the Latitude and Longitude of the Map
+            var myAddress = new google.maps.LatLng(42.851491476124224, 23.038072586059574);
+
+            //Create Options or set different Characteristics of Google Map
+            var mapOptions = {
+                center: myAddress,
+                zoom: 15,
+                minZoom: 15,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+
+            //Display the Google map in the div control with the defined Options
+            var map = new google.maps.Map(document.getElementById("myDiv"), mapOptions);
+
+            //Set Marker on the Map
+            var marker = new google.maps.Marker({
+                position: myAddress,
+                animation: google.maps.Animation.BOUNCE,
+            });
+
+            marker.setMap(map);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,330 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Services\\SoftGamesShop.Services.Data\\SoftGamesShop.Services.Data.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Data\\SoftGamesShop.Data.Common\\SoftGamesShop.Data.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Data\\SoftGamesShop.Data.Common\\SoftGamesShop.Data.Common.csproj",
+        "projectName": "SoftGamesShop.Data.Common",
+        "projectPath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Data\\SoftGamesShop.Data.Common\\SoftGamesShop.Data.Common.csproj",
+        "packagesPath": "C:\\Users\\Ico\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Data\\SoftGamesShop.Data.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ico\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AngleSharp": {
+              "target": "Package",
+              "version": "[0.14.0, )"
+            },
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.28, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Facebook": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.205, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Data\\SoftGamesShop.Data.Models\\SoftGamesShop.Data.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Data\\SoftGamesShop.Data.Models\\SoftGamesShop.Data.Models.csproj",
+        "projectName": "SoftGamesShop.Data.Models",
+        "projectPath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Data\\SoftGamesShop.Data.Models\\SoftGamesShop.Data.Models.csproj",
+        "packagesPath": "C:\\Users\\Ico\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Data\\SoftGamesShop.Data.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ico\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Data\\SoftGamesShop.Data.Common\\SoftGamesShop.Data.Common.csproj": {
+                "projectPath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Data\\SoftGamesShop.Data.Common\\SoftGamesShop.Data.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AngleSharp": {
+              "target": "Package",
+              "version": "[0.14.0, )"
+            },
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.28, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Facebook": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.205, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Services\\SoftGamesShop.Services.Data\\SoftGamesShop.Services.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Services\\SoftGamesShop.Services.Data\\SoftGamesShop.Services.Data.csproj",
+        "projectName": "SoftGamesShop.Services.Data",
+        "projectPath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Services\\SoftGamesShop.Services.Data\\SoftGamesShop.Services.Data.csproj",
+        "packagesPath": "C:\\Users\\Ico\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Services\\SoftGamesShop.Services.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ico\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Data\\SoftGamesShop.Data.Common\\SoftGamesShop.Data.Common.csproj": {
+                "projectPath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Data\\SoftGamesShop.Data.Common\\SoftGamesShop.Data.Common.csproj"
+              },
+              "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Data\\SoftGamesShop.Data.Models\\SoftGamesShop.Data.Models.csproj": {
+                "projectPath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Data\\SoftGamesShop.Data.Models\\SoftGamesShop.Data.Models.csproj"
+              },
+              "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Services\\SoftGamesShop.Services.Mapping\\SoftGamesShop.Services.Mapping.csproj": {
+                "projectPath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Services\\SoftGamesShop.Services.Mapping\\SoftGamesShop.Services.Mapping.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AngleSharp": {
+              "target": "Package",
+              "version": "[0.14.0, )"
+            },
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.28, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Facebook": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.205, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Services\\SoftGamesShop.Services.Mapping\\SoftGamesShop.Services.Mapping.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Services\\SoftGamesShop.Services.Mapping\\SoftGamesShop.Services.Mapping.csproj",
+        "projectName": "SoftGamesShop.Services.Mapping",
+        "projectPath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Services\\SoftGamesShop.Services.Mapping\\SoftGamesShop.Services.Mapping.csproj",
+        "packagesPath": "C:\\Users\\Ico\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Services\\SoftGamesShop.Services.Mapping\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ico\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AngleSharp": {
+              "target": "Package",
+              "version": "[0.14.0, )"
+            },
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.28, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Facebook": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.205, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

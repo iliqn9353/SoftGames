@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <CodeAnalysisRuleSet>..\..\Rules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <AdditionalFiles Include="..\..\stylecop.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AngleSharp" Version="0.14.0" />
+    <PackageReference Include="CommandLineParser" Version="2.8.0" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.28" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Facebook" Version="2.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.9" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="3.1.9" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.9" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="3.1.9" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.9" />
+    <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.205" PrivateAssets="all">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\SoftGamesShop.Common\SoftGamesShop.Common.csproj" />
+    <ProjectReference Include="..\..\Data\SoftGamesShop.Data.Common\SoftGamesShop.Data.Common.csproj" />
+    <ProjectReference Include="..\..\Data\SoftGamesShop.Data.Models\SoftGamesShop.Data.Models.csproj" />
+    <ProjectReference Include="..\..\Data\SoftGamesShop.Data\SoftGamesShop.Data.csproj" />
+    <ProjectReference Include="..\..\Services\SoftGamesShop.Services.Data\SoftGamesShop.Services.Data.csproj" />
+    <ProjectReference Include="..\..\Services\SoftGamesShop.Services.Mapping\SoftGamesShop.Services.Mapping.csproj" />
+    <ProjectReference Include="..\..\Services\SoftGamesShop.Services.Messaging\SoftGamesShop.Services.Messaging.csproj" />
+    <ProjectReference Include="..\..\Services\SoftGamesShop.Services\SoftGamesShop.Services.csproj" />
+  </ItemGroup>
+
+</Project>
