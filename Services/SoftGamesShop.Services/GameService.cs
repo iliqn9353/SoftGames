@@ -137,5 +137,16 @@
 
             return query.To<T>().ToList();
         }
+
+        public int GetSearchedCount(string search)
+        {
+            var query = this.gameRepository.All().AsQueryable();
+            if (!string.IsNullOrEmpty(search))
+            {
+                query = query.Where(x => x.Name.Contains(search));
+            }
+
+            return query.Count();
+        }
     }
 }

@@ -1,5 +1,7 @@
 ﻿namespace SoftGamesShop.Web.Controllers
 {
+    using System;
+    using System.Linq;
     using System.Threading.Tasks;
 
     using Microsoft.AspNetCore.Authorization;
@@ -20,6 +22,7 @@
     {
         private readonly IGamesService gamesService;
         private readonly IHostingEnvironment hostingEnvironment;
+        private const int ItemsPerPage = 8;
 
         private readonly IGenreService genreService;
         private readonly IPlatformService platformService;
@@ -74,7 +77,7 @@
                 return this.NotFound();
             }
 
-            const int ItemsPerPage = 8;
+            //const int ItemsPerPage = 8;
             var viewModel = new AllGamesListViewModel
             {
                 ItemsPerPage = ItemsPerPage,
@@ -93,22 +96,25 @@
         }
 
         [HttpGet]
-        public IActionResult Search (string SearchString, int id = 1)
+        public IActionResult Search(string searchString, int id = 1)
         {
             if (id <= 0)
             {
                 return this.NotFound();
             }
 
-            const int ItemsPerPage = 8;
+            //const int ItemsPerPage = 8;
             var viewModel = new SearchGameViewModel
             {
                 ItemsPerPage = ItemsPerPage,
                 PageNumber = id,
-
-                Games = this.gamesService.GetByName<AllGamesViewModel>(SearchString, id, ItemsPerPage),
-                GamesCount = ItemsPerPage,
+                //GamesCount = this.gamesService.GetSearchedCount(searchString),
+                Games = this.gamesService.GetByName<AllGamesViewModel>(searchString, id, ItemsPerPage),
             };
+            //if (this.gamesService.GetCount() > ItemsPerPage)
+            //{
+            //    viewMode
+            //}
 
             return this.View(viewModel);
         }

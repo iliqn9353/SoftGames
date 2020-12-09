@@ -48,10 +48,6 @@
               "target": "Package",
               "version": "[1.11.28, )"
             },
-            "Microsoft.AspNetCore.Authentication.Facebook": {
-              "target": "Package",
-              "version": "[2.1.0, )"
-            },
             "StyleCop.Analyzers": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers",
               "suppressParent": "All",
@@ -130,10 +126,6 @@
               "target": "Package",
               "version": "[1.11.28, )"
             },
-            "Microsoft.AspNetCore.Authentication.Facebook": {
-              "target": "Package",
-              "version": "[2.1.0, )"
-            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.9, )"
@@ -211,10 +203,6 @@
             "HtmlAgilityPack": {
               "target": "Package",
               "version": "[1.11.28, )"
-            },
-            "Microsoft.AspNetCore.Authentication.Facebook": {
-              "target": "Package",
-              "version": "[2.1.0, )"
             },
             "StyleCop.Analyzers": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers",
@@ -296,10 +284,6 @@
             "Microsoft.AspNet.Mvc": {
               "target": "Package",
               "version": "[5.2.7, )"
-            },
-            "Microsoft.AspNetCore.Authentication.Facebook": {
-              "target": "Package",
-              "version": "[2.1.0, )"
             },
             "Microsoft.AspNetCore.Hosting": {
               "target": "Package",
@@ -389,10 +373,6 @@
             "HtmlSanitizer": {
               "target": "Package",
               "version": "[5.0.355, )"
-            },
-            "Microsoft.AspNetCore.Authentication.Facebook": {
-              "target": "Package",
-              "version": "[2.1.0, )"
             },
             "Microsoft.AspNetCore.Hosting.Abstractions": {
               "target": "Package",

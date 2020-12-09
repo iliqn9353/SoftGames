@@ -48,10 +48,6 @@
               "target": "Package",
               "version": "[1.11.28, )"
             },
-            "Microsoft.AspNetCore.Authentication.Facebook": {
-              "target": "Package",
-              "version": "[2.1.0, )"
-            },
             "Sendgrid": {
               "target": "Package",
               "version": "[9.21.0, )"

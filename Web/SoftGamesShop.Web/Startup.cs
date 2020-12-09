@@ -39,6 +39,15 @@
 
             services.AddDefaultIdentity<ApplicationUser>(IdentityOptionsProvider.GetIdentityOptions)
                 .AddRoles<ApplicationRole>().AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddAuthentication().AddFacebook(options =>
+            {
+                options.AppId = "2784516788474590";
+                options.AppSecret = "b30bb67cb49757d2ec0a5af02104f37e";
+            }).AddGoogle(options =>
+            {
+                options.ClientId = "205473250182-0oq6g2fbd3di5rprhu5jk174k1deokn8.apps.googleusercontent.com";
+                options.ClientSecret = "kw3w3U1o2ySTY9pKiGkAnt7u";
+            }); ;
 
             services.Configure<CookiePolicyOptions>(
                 options =>
@@ -59,12 +68,6 @@
             services.AddRazorPages();
 
             services.AddSingleton(this.configuration);
-
-            services.AddAuthentication().AddFacebook(options =>
-            {
-                options.AppId = "2784516788474590";
-                options.AppSecret = "b30bb67cb49757d2ec0a5af02104f37e";
-            });
 
             // Data repositories
             services.AddScoped(typeof(IDeletableEntityRepository<>), typeof(EfDeletableEntityRepository<>));

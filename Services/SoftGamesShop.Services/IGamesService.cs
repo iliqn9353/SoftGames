@@ -16,6 +16,8 @@
 
         int GetCount();
 
+        int GetSearchedCount(string search);
+
         T GetById<T>(int id);
     }
 }
