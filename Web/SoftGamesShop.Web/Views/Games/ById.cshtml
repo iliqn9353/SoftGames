@@ -62,8 +62,9 @@
 
                         @if (User.Identity.IsAuthenticated)
                         {
-                    <button name="nameButton" id="idButton" title="your title" class="btn btn-success" onclick="location.href='@Url.Action( "AddToCollection","UserCollection", new {  gameId = Model.Id })'; return false;"><i class="fa fa-heart"></i>Add To Collection</button>
-                        }
+                  
+                                    <button name="nameButton" id="idButton" title="your title" class="btn btn-success" onclick="location.href='@Url.Action( "AddToCollection","UserCollection", new {  gameId = Model.Id })'; return false;"><i class="fa fa-heart"></i>Add To Collection</button>}
+
 
                     </div>
                     <div class="card-body">
@@ -109,10 +110,13 @@
                         </p>
                         @if (Model.Trailer.Contains('&'))
                             Model.Trailer = Model.Trailer.Split('&')[0];
-                        <iframe width="690" height="400" src="@Model.Trailer.Replace("watch?v=","embed/")" frameborder="0" allowfullscreen></iframe>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="@Model.Trailer.Replace("watch?v=","embed/")"></iframe>
+                        </div>
+                        @*<iframe width="690" height="400" src="@Model.Trailer.Replace("watch?v=","embed/")" frameborder="0" allowfullscreen></iframe>*@
 
 
-                        <p>Trailer: <a data-fancybox="" data-caption="Trailer" href="@Model.Trailer" target="_blank">YouTube</a></p>
+                        @*<p>Trailer: <a data-fancybox="" data-caption="Trailer" href="@Model.Trailer" target="_blank">YouTube</a></p>*@
                         <p>ESRB Rating: @Model.RatingName</p>
 
                         <p>Genre: @Model.GenresName</p>
@@ -188,9 +192,8 @@
                     }
                 });
             }
-            
-       
-        
+         
+
 
         </script>
      

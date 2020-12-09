@@ -36,7 +36,8 @@
             var user = await this.userManager.GetUserAsync(this.User);
             await this.usersService.AddGameToUserCollection(name, user.Id, gameId);
 
-            return this.Redirect("/UserCollection/MyCollection");
+            return this.Redirect($"/Games/ById/{gameId}");
+            //return this.Redirect("/UserCollection/MyCollection");
         }
 
         public async Task<IActionResult> RemoveFromCollection(int gameId)
