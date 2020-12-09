@@ -16,12 +16,12 @@
 
         [Required(AllowEmptyStrings = false, ErrorMessage = "Please enter the game Name (Title)")]
         [StringLength(50, ErrorMessage = "Name must be at least {2} and not more than {1} symbols.", MinimumLength = 3)]
-        [Display(Name = "Game Name (Title)")]
+        [Display(Name = "Game Name (Title)", Prompt = "Game name goes here...")]
         public string Name { get; set; }
 
         [Required(AllowEmptyStrings = false, ErrorMessage = "Please enter a description")]
         [StringLength(2000, ErrorMessage = "Description must be at least {2} and not more than {1} symbols.", MinimumLength = 10)]
-        [Display(Name = "Game Description")]
+        [Display(Name = "Game Description", Prompt = "No description is currently available for this game, please feel free to add one.")]
         public string Description { get; set; }
 
         [Display(Name = "Release Date")]
@@ -29,15 +29,16 @@
 
         [RegularExpression(@"^(https?\:\/\/)?(www\.youtube\.com|youtu\.?be)\/.+$",
        ErrorMessage = "Only YouTube Links Allowed!")]
-        [Display(Name = "Trailer (YouTube)")]
+        [Display(Name = "Trailer (YouTube)",Prompt = "https://www.youtube.com/watch?v=oHg5SJYRHA0&ab_channel=cotter548")]
         public string Trailer { get; set; }
 
-        [Range(1, 4, ErrorMessage = "Please enter a number between 1 and 4.")]
+        [Range(1, 32, ErrorMessage = "Please enter a number between 1 and 32.")]
         [Display(Name = "Players Count")]
         public int PlayersCount { get; set; }
 
         public bool CoOp { get; set; }
 
+        [Display(Prompt = "Blizzard,EA,Rockstar Games etc...")]
         public string Developer { get; set; }
 
         public int GenreId { get; set; }

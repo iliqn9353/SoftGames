@@ -65,6 +65,7 @@
             {
                 options.HeaderName = "X-CSRF-TOKEN";
             });
+           
             services.AddRazorPages();
 
             services.AddSingleton(this.configuration);
