@@ -26,12 +26,23 @@ comment on each game and reply to other users there is a live chat so u can chat
 ### Home Page
 ![screencapture-localhost-44319-2020-12-11-19_22_19](https://user-images.githubusercontent.com/55882205/101935604-02c74f80-3be8-11eb-90d5-3d0e8fb13249.png)
 
+### Add game Page
+![create](https://user-images.githubusercontent.com/55882205/101935699-2094b480-3be8-11eb-8708-63c46b1e6d7d.png)
 
+### My Collection Page
+![collection](https://user-images.githubusercontent.com/55882205/101935780-41f5a080-3be8-11eb-8f06-5a613a9b8a21.png)
 
+### Chat Page
+![chat](https://user-images.githubusercontent.com/55882205/101935833-546fda00-3be8-11eb-8bc4-b675e0c80ab2.png)
 
+### All Games Page
+![all games](https://user-images.githubusercontent.com/55882205/101935864-62bdf600-3be8-11eb-9022-711f98732b33.png)
+
+### Contact  Page
+![contacts](https://user-images.githubusercontent.com/55882205/101935907-736e6c00-3be8-11eb-8ab1-2ba7bff7f38b.png)
 
 ## Author
 
-[Yordan Dobrev](https://github.com/YordanDobrev97)
+[Iliyan Konstantinov](https://github.com/iliqn9353)
 
 Give a :star: if you like this project!
