@@ -24,19 +24,9 @@ comment on each game and reply to other users there is a live chat so u can chat
 * Google for developers
 
 ### Home Page
-![HomePage](https://imgur.com/od8gKb9)
+![screencapture-localhost-44319-2020-12-11-19_22_19](https://user-images.githubusercontent.com/55882205/101935604-02c74f80-3be8-11eb-90d5-3d0e8fb13249.png)
 
-### Video Reviews
-![Reviews](https://user-images.githubusercontent.com/42092212/100554024-a5073f00-329a-11eb-876d-e6e4cc0a0b4f.png)
 
-### News
-![News](https://user-images.githubusercontent.com/42092212/100554046-d718a100-329a-11eb-9e97-63611c1aa6f0.png)
-
-### Forum
-![Forum](https://user-images.githubusercontent.com/42092212/100554055-e8fa4400-329a-11eb-8310-335824e20b02.png)
-
-### All Users
-![Profile](https://user-images.githubusercontent.com/42092212/100554063-f44d6f80-329a-11eb-9316-014c8fcf3a81.png)
 
 
 
