@@ -6208,11 +6208,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Data\\SoftGamesShop.Data\\SoftGamesShop.Data.csproj",
+      "projectUniqueName": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main-main-main\\Data\\SoftGamesShop.Data\\SoftGamesShop.Data.csproj",
       "projectName": "SoftGamesShop.Data",
-      "projectPath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Data\\SoftGamesShop.Data\\SoftGamesShop.Data.csproj",
+      "projectPath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main-main-main\\Data\\SoftGamesShop.Data\\SoftGamesShop.Data.csproj",
       "packagesPath": "C:\\Users\\Ico\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Data\\SoftGamesShop.Data\\obj\\",
+      "outputPath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main-main-main\\Data\\SoftGamesShop.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ico\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6229,14 +6229,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Data\\SoftGamesShop.Data.Common\\SoftGamesShop.Data.Common.csproj": {
-              "projectPath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Data\\SoftGamesShop.Data.Common\\SoftGamesShop.Data.Common.csproj"
+            "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main-main-main\\Data\\SoftGamesShop.Data.Common\\SoftGamesShop.Data.Common.csproj": {
+              "projectPath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main-main-main\\Data\\SoftGamesShop.Data.Common\\SoftGamesShop.Data.Common.csproj"
             },
-            "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Data\\SoftGamesShop.Data.Models\\SoftGamesShop.Data.Models.csproj": {
-              "projectPath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Data\\SoftGamesShop.Data.Models\\SoftGamesShop.Data.Models.csproj"
+            "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main-main-main\\Data\\SoftGamesShop.Data.Models\\SoftGamesShop.Data.Models.csproj": {
+              "projectPath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main-main-main\\Data\\SoftGamesShop.Data.Models\\SoftGamesShop.Data.Models.csproj"
             },
-            "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\SoftGamesShop.Common\\SoftGamesShop.Common.csproj": {
-              "projectPath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\SoftGamesShop.Common\\SoftGamesShop.Common.csproj"
+            "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main-main-main\\SoftGamesShop.Common\\SoftGamesShop.Common.csproj": {
+              "projectPath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main-main-main\\SoftGamesShop.Common\\SoftGamesShop.Common.csproj"
             }
           }
         }

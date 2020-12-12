@@ -31,7 +31,7 @@
         private readonly UserManager<ApplicationUser> userManager;
 
         public GamesController(IGamesService gamesService, IHostingEnvironment hostingEnvironment,
-             IGenreService genreService,UserManager<ApplicationUser> userManager,
+             IGenreService genreService, UserManager<ApplicationUser> userManager,
              IPlatformService platformService, IDeletableEntityRepository<Game> gameRepository,
              IRatingService ratingService)
         {
@@ -77,7 +77,6 @@
                 return this.NotFound();
             }
 
-            //const int ItemsPerPage = 8;
             var viewModel = new AllGamesListViewModel
             {
                 ItemsPerPage = ItemsPerPage,
@@ -103,20 +102,13 @@
                 return this.NotFound();
             }
 
-            //const int ItemsPerPage = 8;
+            var games = this.gamesService.GetByName<AllGamesViewModel>(searchString);
+
             var viewModel = new SearchGameViewModel
             {
-                ItemsPerPage = ItemsPerPage,
-                PageNumber = id,
-                //GamesCount = this.gamesService.GetSearchedCount(searchString),
-                Games = this.gamesService.GetByName<AllGamesViewModel>(searchString, id, ItemsPerPage),
+                Games = games,
             };
-            //if (this.gamesService.GetCount() > ItemsPerPage)
-            //{
-            //    viewMode
-            //}
-
-            return this.View(viewModel);
+            return this.View("Views/Games/Search.cshtml", viewModel);
         }
     }
 }

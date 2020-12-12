@@ -1,10 +1,8 @@
-﻿using SoftGamesShop.Data.Common.Models;
-
-namespace SoftGamesShop.Data.Models
+﻿namespace SoftGamesShop.Data.Models
 {
-   
+    using SoftGamesShop.Data.Common.Models;
 
-    public class Comment: BaseDeletableModel<int>
+    public class Comment : BaseDeletableModel<int>
     {
         public int GameId { get; set; }
 

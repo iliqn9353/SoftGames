@@ -1,16 +1,14 @@
 ﻿namespace SoftGamesShop.Services
 {
-    using System;
     using System.Collections.Generic;
     using System.Linq;
-    using System.Text;
     using System.Threading.Tasks;
+
     using Microsoft.AspNetCore.Identity;
     using SoftGamesShop.Data.Common.Repositories;
     using SoftGamesShop.Data.Models;
     using SoftGamesShop.Services.Mapping;
     using SoftGamesShop.Web.ViewModels.Collection;
-    using SoftGamesShop.Web.ViewModels.Game;
 
     public class UsersService : IUsersService
     {
@@ -34,10 +32,11 @@
             {
                 return;
             }
+
             var item = new UserCollection
             {
                 ApplicationUserId = userId,
-                GameId=gameId,
+                GameId = gameId,
             };
 
             await this.userRepository.AddAsync(item);
@@ -56,16 +55,16 @@
 
         public IEnumerable<MyCollectionViewModel> GetByUserId(string userId)
         {
-            var game= this.userRepository.All().Where(x => x.ApplicationUserId == userId)
+            var game = this.userRepository.All().Where(x => x.ApplicationUserId == userId)
                 .Select(x => new MyCollectionViewModel
                 {
-                   ApplicationUserId=x.ApplicationUserId,
-                   GameId=x.GameId,
-                   Name=x.Game.Name,
+                   ApplicationUserId = x.ApplicationUserId,
+                   GameId = x.GameId,
+                   Name = x.Game.Name,
                    ImageUrl = x.Game.Images.FirstOrDefault().RemoteImageUrl != null ?
                         x.Game.Images.FirstOrDefault().RemoteImageUrl :
                         "/images/Games/" + x.Game.Images.FirstOrDefault().Id + "." + x.Game.Images.FirstOrDefault().Extension,
-        }).ToList();
+                }).ToList();
 
             return game;
         }
@@ -76,6 +75,5 @@
             this.userRepository.Delete(userGame);
             await this.userRepository.SaveChangesAsync();
         }
-     
     }
 }

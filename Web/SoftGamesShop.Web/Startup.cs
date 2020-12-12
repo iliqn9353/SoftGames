@@ -20,6 +20,7 @@
 
     using SoftGamesShop.Services.Mapping;
     using SoftGamesShop.Services.Messaging;
+    using SoftGamesShop.Web.Hubs;
     using SoftGamesShop.Web.ViewModels;
 
     public class Startup
@@ -67,6 +68,7 @@
             });
            
             services.AddRazorPages();
+            services.AddSignalR();
 
             services.AddSingleton(this.configuration);
 
@@ -123,8 +125,9 @@
 
             app.UseEndpoints(
                 endpoints =>
-                    {
-                        endpoints.MapControllerRoute("areaRoute", "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+                {
+                    endpoints.MapHub<SignalRChatHub>("/chat");
+                    endpoints.MapControllerRoute("areaRoute", "{area:exists}/{controller=Home}/{action=Index}/{id?}");
                         endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
                         endpoints.MapRazorPages();
                     });

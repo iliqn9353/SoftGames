@@ -3,9 +3,8 @@ namespace SoftGamesShop.Data.Models
 {
     using System;
 
-    using SoftGamesShop.Data.Common.Models;
-
     using Microsoft.AspNetCore.Identity;
+    using SoftGamesShop.Data.Common.Models;
 
     public class ApplicationRole : IdentityRole, IAuditInfo, IDeletableEntity
     {

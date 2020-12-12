@@ -1,8 +1,15 @@
 ﻿@model SoftGamesShop.Web.ViewModels.Search.SearchGameViewModel
 @{
-    ViewData["Title"] = "Search result" + " " + "Page" + " " + Model.PageNumber; 
+    ViewData["Title"] = "Search result" ;
+  
 }
-
+<head>
+    <style>
+        body {
+            background-image: url('https://cdn.wallpapersafari.com/82/19/F9ielj.jpg');
+        }
+    </style>
+</head>
 
 
 @if (!Model.Games.Any())
@@ -27,5 +34,5 @@ else
         
     }
 </div>
-<partial name="PagingSearch" model="@Model" />
+
 }

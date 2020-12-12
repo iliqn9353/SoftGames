@@ -16,7 +16,8 @@
                 return;
             }
 
-            var genres = new List<string> { "FPS", "Strategy", "RPG", "Simulator", "Racing", "Action", "MMORPG", "Horror", "Sandbox" };
+            var genres = new List<string> { "FPS", "Strategy", "RPG", "Simulator", "Racing",
+                "Action", "MMORPG", "Horror", "Sandbox", "Adventure", "Quiz", "Stealth", "Sport", "Management", "Board", "Puzzle", };
             foreach (var genre in genres)
             {
                 await dbContext.Genres.AddAsync(new Genre

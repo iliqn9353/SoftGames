@@ -27,7 +27,7 @@
         }
 
         [Microsoft.AspNetCore.Mvc.HttpPost]
-        public async Task <IActionResult> SendMail(ContactsModel contactsModel)
+        public async Task<IActionResult> SendMail(ContactsModel contactsModel)
         {
             if (this.ModelState.IsValid)
             {

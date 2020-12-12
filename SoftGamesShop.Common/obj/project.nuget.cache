@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aYDDfSIWJIrfxpXe80lPxvzx5QQNrLLWATIiSkDGbWABdhL1Aa18rtPpGHGVXj1Ehd1EAgdg0/mURI63UdtV/Q==",
+  "dgSpecHash": "CHHV4Knuyw6qgkni4b0ZKpexNF5JMOdSvrZvuKq+udatjSuvqPOjyJArbpXIKWKuNL1viXWHRAjY5hAappAwog==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\SoftGamesShop.Common\\SoftGamesShop.Common.csproj",
+  "projectFilePath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main-main-main\\SoftGamesShop.Common\\SoftGamesShop.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ico\\.nuget\\packages\\anglesharp\\0.14.0\\anglesharp.0.14.0.nupkg.sha512",
     "C:\\Users\\Ico\\.nuget\\packages\\htmlagilitypack\\1.11.28\\htmlagilitypack.1.11.28.nupkg.sha512",

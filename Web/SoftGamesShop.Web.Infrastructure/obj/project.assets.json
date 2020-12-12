@@ -259,11 +259,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Web\\SoftGamesShop.Web.Infrastructure\\SoftGamesShop.Web.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main-main-main\\Web\\SoftGamesShop.Web.Infrastructure\\SoftGamesShop.Web.Infrastructure.csproj",
       "projectName": "SoftGamesShop.Web.Infrastructure",
-      "projectPath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Web\\SoftGamesShop.Web.Infrastructure\\SoftGamesShop.Web.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main-main-main\\Web\\SoftGamesShop.Web.Infrastructure\\SoftGamesShop.Web.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Ico\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Web\\SoftGamesShop.Web.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main-main-main\\Web\\SoftGamesShop.Web.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ico\\AppData\\Roaming\\NuGet\\NuGet.Config",

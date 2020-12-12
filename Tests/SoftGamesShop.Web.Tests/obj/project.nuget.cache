@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3Ke4OkLvfOkLO/J2gYkSt4EptictjNGVOCxcWgiWPRhHWaGzvOAEJzKvofm2cqpWoGBLtPU2CRE42gQaiAQnEA==",
+  "dgSpecHash": "CfeUU01t94XPWQSXxKVXKjoKAa9QGtPo+U8+krYErCKw9epCix4V1q/K4xtPM/LOccp2XwuQYqwca0TMNArKsw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Tests\\SoftGamesShop.Web.Tests\\SoftGamesShop.Web.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main-main-main\\Tests\\SoftGamesShop.Web.Tests\\SoftGamesShop.Web.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ico\\.nuget\\packages\\anglesharp\\0.14.0\\anglesharp.0.14.0.nupkg.sha512",
     "C:\\Users\\Ico\\.nuget\\packages\\anglesharp.css\\0.14.2\\anglesharp.css.0.14.2.nupkg.sha512",

@@ -103,7 +103,7 @@
             return game;
         }
 
-        public IEnumerable<T> GetAll<T>(int page, int itemsPerPage = 5)
+        public IEnumerable<T> GetAll<T>(int page, int itemsPerPage = 8)
         {
             var games = this.gameRepository.AllAsNoTracking()
                 .OrderByDescending(x => x.Id)
@@ -124,16 +124,13 @@
             return games;
         }
 
-        public IEnumerable<T> GetByName<T>(string search, int page, int itemsPerPage = 5)
+        public IEnumerable<T> GetByName<T>(string search)
         {
             var query = this.gameRepository.All().AsQueryable();
             if (!string.IsNullOrEmpty(search))
             {
                 query = query.Where(x => x.Name.Contains(search));
             }
-
-            query.OrderByDescending(x => x.Id)
-         .Skip((page - 1) * itemsPerPage).Take(itemsPerPage);
 
             return query.To<T>().ToList();
         }

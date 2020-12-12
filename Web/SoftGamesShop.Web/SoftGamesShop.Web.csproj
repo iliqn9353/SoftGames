@@ -9,6 +9,10 @@
   <PropertyGroup>
     <CodeAnalysisRuleSet>..\..\Rules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Home\Chat.cshtml" />
+  </ItemGroup>
   <ItemGroup>
     <AdditionalFiles Include="..\..\stylecop.json" />
   </ItemGroup>
@@ -54,5 +58,9 @@
     <Folder Include="Areas\Administration\Views\Dashboard\" />
     <Folder Include="wwwroot\images\User\" />
     <Folder Include="wwwroot\Json\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Home\Chat.cshtml" />
   </ItemGroup>
 </Project>

@@ -55,6 +55,24 @@ namespace SoftGamesShop.Data.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "ChatMessages",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    CreatedOn = table.Column<DateTime>(nullable: false),
+                    ModifiedOn = table.Column<DateTime>(nullable: true),
+                    IsDeleted = table.Column<bool>(nullable: false),
+                    DeletedOn = table.Column<DateTime>(nullable: true),
+                    User = table.Column<string>(nullable: true),
+                    Text = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_ChatMessages", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "ContactsModels",
                 columns: table => new
                 {
@@ -560,6 +578,11 @@ namespace SoftGamesShop.Data.Migrations
                 filter: "[NormalizedUserName] IS NOT NULL");
 
             migrationBuilder.CreateIndex(
+                name: "IX_ChatMessages_IsDeleted",
+                table: "ChatMessages",
+                column: "IsDeleted");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Comments_GameId",
                 table: "Comments",
                 column: "GameId");
@@ -736,6 +759,9 @@ namespace SoftGamesShop.Data.Migrations
 
             migrationBuilder.DropTable(
                 name: "AspNetUserTokens");
+
+            migrationBuilder.DropTable(
+                name: "ChatMessages");
 
             migrationBuilder.DropTable(
                 name: "Comments");

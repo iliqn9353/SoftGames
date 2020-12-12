@@ -4,9 +4,8 @@ namespace SoftGamesShop.Data.Models
     using System;
     using System.Collections.Generic;
 
-    using SoftGamesShop.Data.Common.Models;
-
     using Microsoft.AspNetCore.Identity;
+    using SoftGamesShop.Data.Common.Models;
 
     public class ApplicationUser : IdentityUser, IAuditInfo, IDeletableEntity
     {

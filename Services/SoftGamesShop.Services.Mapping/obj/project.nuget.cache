@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tLEzZKMY4uoLzWQQvWcno/mIw4y2bghQodw1Pd5VD+HuSMQ4wQPdFRDCByzwGqYETqEyu+P9vKSXeEun1xeCgg==",
+  "dgSpecHash": "jvI0OUMgbvs4+dbUTpgz0h1obc1aWwVCU4tlD5K8U8vUvifgVxZfFsHvKXx1zemwacCApFnbpeVmo8q6hajL6A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Services\\SoftGamesShop.Services.Mapping\\SoftGamesShop.Services.Mapping.csproj",
+  "projectFilePath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main-main-main\\Services\\SoftGamesShop.Services.Mapping\\SoftGamesShop.Services.Mapping.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ico\\.nuget\\packages\\anglesharp\\0.14.0\\anglesharp.0.14.0.nupkg.sha512",
     "C:\\Users\\Ico\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",

@@ -1,12 +1,19 @@
 ﻿@model SoftGamesShop.Web.ViewModels.Game.SingleGameViewModel
 @{ this.ViewData["Title"] = Model.Name;
-    void DisplayComments(int? parentId)
-    {
-        var comments = this.Model.Comments.Where(x => x.ParentId == parentId);
-        if (!comments.Any())
-        {
-            return;
+
+<head>
+    <style>
+        body {
+            background-image: url('https://cdn.wallpapersafari.com/82/19/F9ielj.jpg');
         }
+    </style>
+</head> void DisplayComments(int? parentId)
+            {
+                var comments = this.Model.Comments.Where(x => x.ParentId == parentId);
+                if (!comments.Any())
+                {
+                    return;
+                }
 
 @foreach (var comment in comments)
 {
@@ -62,8 +69,8 @@
 
                         @if (User.Identity.IsAuthenticated)
                         {
-                  
-                                    <button name="nameButton" id="idButton" title="your title" class="btn btn-success" onclick="location.href='@Url.Action( "AddToCollection","UserCollection", new {  gameId = Model.Id })'; return false;"><i class="fa fa-heart"></i>Add To Collection</button>}
+
+            <button name="nameButton" id="idButton" title="your title" class="btn btn-success" onclick="location.href='@Url.Action( "AddToCollection","UserCollection", new {  gameId = Model.Id })'; return false;"><i class="fa fa-heart"></i>Add To Collection</button>}
 
 
                     </div>
@@ -104,12 +111,13 @@
                         <h1>@Model.Name</h1>
                     </div>
                     <div class="card-body">
-
+                      
                         <p class="game-overview">
                             @Model.Description
                         </p>
                         @if (Model.Trailer.Contains('&'))
                             Model.Trailer = Model.Trailer.Split('&')[0];
+                         <p class="text-center">Trailer</p>
                         <div class="embed-responsive embed-responsive-16by9">
                             <iframe class="embed-responsive-item" src="@Model.Trailer.Replace("watch?v=","embed/")"></iframe>
                         </div>
@@ -122,7 +130,7 @@
                         <p>Genre: @Model.GenresName</p>
 
                     </div>
-                    </div>
+                </div>
             </div>
         </div>
 
@@ -144,7 +152,7 @@
             <textarea name="Content" id="Content" class="form-control"></textarea>
         </div>
         <div>
-            <input type="submit" class="btn btn-primary"  value="Add comment" />
+            <input type="submit" class="btn btn-primary" value="Add comment" />
         </div>
     </form>
 </div>
@@ -167,35 +175,35 @@
 
 
 
-    @section Scripts {
-        <script>
-            function showAddCommentForm(parentId) {
-                $("#AddCommentForm input[name='ParentId']").val(parentId);
-                $("#AddCommentForm").show();
-                $([document.documentElement, document.body]).animate({
-                    scrollTop: $("#AddCommentForm").offset().top
-                }, 1000);
-            }
+@section Scripts {
+    <script>
+        function showAddCommentForm(parentId) {
+            $("#AddCommentForm input[name='ParentId']").val(parentId);
+            $("#AddCommentForm").show();
+            $([document.documentElement, document.body]).animate({
+                scrollTop: $("#AddCommentForm").offset().top
+            }, 1000);
+        }
 
-            function sendVote(gameId, isUpVote) {
-                var token = $("#votesForm input[name=__RequestVerificationToken]").val();
-                var json = { gameId: gameId, isUpVote: isUpVote };
-                $.ajax({
-                    url: "/api/votes",
-                    type: "POST",
-                    data: JSON.stringify(json),
-                    contentType: "application/json; charset=utf-8",
-                    dataType: "json",
-                    headers: { 'X-CSRF-TOKEN': token },
-                    success: function (data) {
-                        $("#votesCount").html(data.votesCounter);
-                    }
-                });
-            }
-         
+        function sendVote(gameId, isUpVote) {
+            var token = $("#votesForm input[name=__RequestVerificationToken]").val();
+            var json = { gameId: gameId, isUpVote: isUpVote };
+            $.ajax({
+                url: "/api/votes",
+                type: "POST",
+                data: JSON.stringify(json),
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                headers: { 'X-CSRF-TOKEN': token },
+                success: function (data) {
+                    $("#votesCount").html(data.votesCounter);
+                }
+            });
+        }
 
 
-        </script>
-     
-    }
+
+    </script>
+
+}
 

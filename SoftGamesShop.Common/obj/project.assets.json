@@ -259,11 +259,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\SoftGamesShop.Common\\SoftGamesShop.Common.csproj",
+      "projectUniqueName": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main-main-main\\SoftGamesShop.Common\\SoftGamesShop.Common.csproj",
       "projectName": "SoftGamesShop.Common",
-      "projectPath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\SoftGamesShop.Common\\SoftGamesShop.Common.csproj",
+      "projectPath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main-main-main\\SoftGamesShop.Common\\SoftGamesShop.Common.csproj",
       "packagesPath": "C:\\Users\\Ico\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\SoftGamesShop.Common\\obj\\",
+      "outputPath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main-main-main\\SoftGamesShop.Common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ico\\AppData\\Roaming\\NuGet\\NuGet.Config",

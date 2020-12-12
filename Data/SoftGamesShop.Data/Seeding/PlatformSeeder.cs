@@ -16,8 +16,9 @@
                 return;
             }
 
-            var platforms = new List<string> { "Pc", "Playstation 1", "X-Box Classic", "Mac", "Playstation 2", "Playstation 3",
-            "Playstation 4", "X-Box 360", "X-Box ONE", };
+            var platforms = new List<string> { "Pc", "Mac", "Sony Playstation", "Sony Playstation 2", "Sony Playstation 3",
+                "Sony Playstation 4", "Sony Playstation 5", "Sony Playstation Portable", "Microsoft Xbox",
+             "Microsoft Xbox 360", "Microsoft Xbox ONE", "Nintendo Wii", "Nintendo Switch", };
             foreach (var platform in platforms)
             {
                 await dbContext.Platforms.AddAsync(new Platform

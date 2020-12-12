@@ -1,6 +1,14 @@
 ﻿@model SoftGamesShop.Web.ViewModels.Game.AllGamesListViewModel
 
 @{ ViewData["Title"] = "All Games" + " " + "Page" + " " + Model.PageNumber; }
+
+<head>
+    <style>
+        body {
+            background-image: url('https://cdn.wallpapersafari.com/82/19/F9ielj.jpg');
+        }
+    </style>
+</head>
 <h4 class="text-center text-uppercase">List of Games</h4>
 <form asp-controller="Games" asp-action="Search" method="get">
 

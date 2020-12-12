@@ -2,11 +2,10 @@
 {
     using System.Diagnostics;
     using System.Linq;
-    using System.Net;
+
+    using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Mvc;
-    using Newtonsoft.Json;
     using SoftGamesShop.Data;
-    using SoftGamesShop.Data.Models;
     using SoftGamesShop.Web.ViewModels;
 
     public class HomeController : BaseController
@@ -18,18 +17,24 @@
             this.db = db;
         }
 
+        [Authorize]
+        public IActionResult Chat()
+        {
+            return this.View();
+        }
+
         public IActionResult Index(string searching)
         {
-            //var model = new SoftGamesShop.Web.ViewModels.Home.IndexViewModel
-            //{
-            //    GamesCount = this.db.Games.Count(),
-            //    GenreCount = this.db.Genres.Count(),
-            //    PlatformsCount = this.db.Platforms.Count(),
-            //    ImagesCount = this.db.Images.Count(),
-            //};
-            //return this.View(model);
+            var model = new SoftGamesShop.Web.ViewModels.Home.IndexViewModel
+            {
+                GamesCount = this.db.Games.Count(),
+                GenreCount = this.db.Genres.Count(),
+                PlatformsCount = this.db.Platforms.Count(),
+                ImagesCount = this.db.Images.Count(),
+            };
+            return this.View(model);
 
-            return View(db.Games.Where(x => x.Name.Contains(searching) || searching == null).ToList());
+            //return View(db.Games.Where(x => x.Name.Contains(searching) || searching == null).ToList());
 
             //var webClient = new WebClient();
             //var json = webClient.DownloadString(@"C:\Users\Ico\Desktop\SoftGamesShop-newest-main\Web\SoftGamesShop.Web\wwwroot\Json\games.json");
