@@ -20,21 +20,21 @@
 
         public async Task<IActionResult> Login()
         {
-            var allSchemeProvider = (await authenticationSchemeProvider.GetAllSchemesAsync())
-                .Select(n => n.DisplayName).Where(n => !String.IsNullOrEmpty(n));
+            var allSchemeProvider = (await this.authenticationSchemeProvider.GetAllSchemesAsync())
+                .Select(n => n.DisplayName).Where(n => !string.IsNullOrEmpty(n));
 
-            return View(allSchemeProvider);
+            return this.View(allSchemeProvider);
         }
 
-        public IActionResult SignIn(String provider)
+        public IActionResult SignIn(string provider)
         {
-            return Challenge(new AuthenticationProperties { RedirectUri = "/" }, provider);
+            return this.Challenge(new AuthenticationProperties { RedirectUri = "/" }, provider);
         }
 
         public async Task<IActionResult> SignOut()
         {
-            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-            return RedirectToAction("Index", "Home");
+            await this.HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            return this.RedirectToAction("Index", "Home");
         }
     }
 }

@@ -48,7 +48,7 @@
             {
                 options.ClientId = "205473250182-0oq6g2fbd3di5rprhu5jk174k1deokn8.apps.googleusercontent.com";
                 options.ClientSecret = "kw3w3U1o2ySTY9pKiGkAnt7u";
-            }); ;
+            });
 
             services.Configure<CookiePolicyOptions>(
                 options =>
@@ -66,7 +66,7 @@
             {
                 options.HeaderName = "X-CSRF-TOKEN";
             });
-           
+
             services.AddRazorPages();
             services.AddSignalR();
 
@@ -87,7 +87,6 @@
             services.AddTransient<ICommentsService, CommentsService>();
             services.AddTransient<IVotesService, VotesService>();
             services.AddTransient<IRatingService, RatingService>();
-
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -128,8 +127,8 @@
                 {
                     endpoints.MapHub<SignalRChatHub>("/chat");
                     endpoints.MapControllerRoute("areaRoute", "{area:exists}/{controller=Home}/{action=Index}/{id?}");
-                        endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
-                        endpoints.MapRazorPages();
+                    endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
+                    endpoints.MapRazorPages();
                     });
         }
     }

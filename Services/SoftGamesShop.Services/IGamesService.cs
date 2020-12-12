@@ -13,6 +13,8 @@
 
         IEnumerable<T> GetForSearch<T>();
 
+        IEnumerable<T> GetLatest<T>(int count);
+
         IEnumerable<T> GetByName<T>(string search);
 
         int GetCount();

@@ -1,7 +1,7 @@
 ﻿namespace SoftGamesShop.Web.Controllers
 {
-    using System;
     using System.Threading.Tasks;
+
     using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Identity;
     using Microsoft.AspNetCore.Mvc;
@@ -42,11 +42,6 @@
             var userId = this.userManager.GetUserId(this.User);
             await this.commentsService.Create(input.GameId, userId, input.Content, parentId);
             return this.RedirectToAction("ById", "Games", new { id = input.GameId });
-        }
-
-        private IActionResult BadRequest()
-        {
-            throw new NotImplementedException();
         }
     }
 }

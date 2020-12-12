@@ -5,21 +5,18 @@
     using System.IO;
     using System.Threading.Tasks;
 
+    using CommandLine;
+    using Microsoft.EntityFrameworkCore;
+    using Microsoft.Extensions.Configuration;
+    using Microsoft.Extensions.DependencyInjection;
+    using Microsoft.Extensions.Logging;
     using SoftGamesShop.Data;
     using SoftGamesShop.Data.Common;
     using SoftGamesShop.Data.Common.Repositories;
     using SoftGamesShop.Data.Models;
     using SoftGamesShop.Data.Repositories;
     using SoftGamesShop.Data.Seeding;
-  
     using SoftGamesShop.Services.Messaging;
-
-    using CommandLine;
-
-    using Microsoft.EntityFrameworkCore;
-    using Microsoft.Extensions.Configuration;
-    using Microsoft.Extensions.DependencyInjection;
-    using Microsoft.Extensions.Logging;
 
     public static class Program
     {
@@ -52,9 +49,6 @@
         {
             var sw = Stopwatch.StartNew();
 
-           
-           
-
             Console.WriteLine(sw.Elapsed);
             return await Task.FromResult(0);
         }
@@ -81,10 +75,6 @@
 
             // Application services
             services.AddTransient<IEmailSender, NullMessageSender>();
-           
-
-
-
         }
     }
 }

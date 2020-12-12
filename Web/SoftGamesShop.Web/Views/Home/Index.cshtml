@@ -1,28 +1,46 @@
 ﻿@model SoftGamesShop.Web.ViewModels.Home.IndexViewModel
 
 
-@{this.ViewData["Title"] = $"Welcome to SoftGames!"; }
+
 <head>
     <style>
-    body { background-image: url('https://cdn.wallpapersafari.com/82/19/F9ielj.jpg'); }
+        body {
+            background-image: url('https://cdn.wallpapersafari.com/82/19/F9ielj.jpg');
+        }
     </style>
 </head>
-
-<div class="text-center">
-    <h1 class="display-3">@this.ViewData["Title"]</h1>
+<div class="text-center ">
+    <h1 class="display-5">Welcome to SoftGames!</h1>
     <div class="text-center">
-        <p>We have:</p>
+        <p>Recently added games</p>
+        <div class="row">
+            @foreach (var game in this.Model.LatestGame)
+            {
+                <div class="card col-md-4">
+                    <img class="img-fluid" src="@game.ImageUrl" alt="@game.Name"
+                         
+                           >
+                    <div class="card-body">
+                        <h5 class="card-title">@game.Name</h5>
+                        <p>Release Date: @game.ReleaseDate.ToString("dd/MM/yyyy")</p>
+                        <a asp-controller="Games" asp-action="ById" asp-route-id="@game.Id" class="btn btn-primary">Details</a>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+    <div class="text-center">
+        <p >We have:</p>
         <ul class="list-group">
-            <li class="list-group-item bg-dark">Games: @Model.GamesCount</li>
-            <li class="list-group-item bg-light">Genres: @Model.GenreCount</li>
-            <li class="list-group-item bg-dark">Images: @Model.ImagesCount</li>
-            <li class="list-group-item bg-light">Platforms: @Model.PlatformsCount</li>
+            <li class="list-group-item bg-dark">@Model.GamesCount Games!</li>
+            <li class="list-group-item bg-light">@Model.PlatformsCount Platforms</li>
+            <li class="list-group-item bg-dark">@Model.ImagesCount Images</li>
+            <li class="list-group-item bg-light">@Model.GenreCount Genres</li>
+            <p >And counting...</p>
         </ul>
     </div>
-
 </div>
 
 
- 
 
 

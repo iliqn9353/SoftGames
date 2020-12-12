@@ -1,5 +1,6 @@
 ﻿namespace SoftGamesShop.Web.Controllers
 {
+    using System.Threading.Tasks;
 
     using MailKit.Net.Smtp;
     using Microsoft.AspNetCore.Mvc;
@@ -7,12 +8,11 @@
     using MimeKit.Text;
     using SoftGamesShop.Data.Common.Repositories;
     using SoftGamesShop.Data.Models;
-    using System.Threading.Tasks;
 
     public class ContactsController : Microsoft.AspNetCore.Mvc.Controller
     {
-        IDeletableEntityRepository<ContactsModel> contactRepository;
         private const string RedirectedFromContactForm = "RedirectedFromContactForm";
+        private readonly IDeletableEntityRepository<ContactsModel> contactRepository;
 
         public ContactsController(IDeletableEntityRepository<ContactsModel> contactRepository)
         {
@@ -27,6 +27,7 @@
         }
 
         [Microsoft.AspNetCore.Mvc.HttpPost]
+        [System.Obsolete]
         public async Task<IActionResult> SendMail(ContactsModel contactsModel)
         {
             if (this.ModelState.IsValid)
@@ -47,7 +48,7 @@
                 using (var emailClient = new SmtpClient())
                 {
                     emailClient.Connect("smtp.gmail.com", 587, false);
-                    emailClient.Authenticate("softgamesshop@gmail.com", "101020Ik");//Delete before deploy !
+                    emailClient.Authenticate("softgamesshop@gmail.com", "101020Ik"); // Delete before deploy !
                     emailClient.Send(message);
                     emailClient.Disconnect(false);
                 }

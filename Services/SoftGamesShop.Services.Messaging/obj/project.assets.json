@@ -2988,11 +2988,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main-main-main\\Services\\SoftGamesShop.Services.Messaging\\SoftGamesShop.Services.Messaging.csproj",
+      "projectUniqueName": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Services\\SoftGamesShop.Services.Messaging\\SoftGamesShop.Services.Messaging.csproj",
       "projectName": "SoftGamesShop.Services.Messaging",
-      "projectPath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main-main-main\\Services\\SoftGamesShop.Services.Messaging\\SoftGamesShop.Services.Messaging.csproj",
+      "projectPath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Services\\SoftGamesShop.Services.Messaging\\SoftGamesShop.Services.Messaging.csproj",
       "packagesPath": "C:\\Users\\Ico\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main-main-main\\Services\\SoftGamesShop.Services.Messaging\\obj\\",
+      "outputPath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Services\\SoftGamesShop.Services.Messaging\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ico\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -3837,3 +3837,4 @@ C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main-main-main\Tests\So
 C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main-main-main\Tests\SoftGamesShop.Web.Tests\obj\Debug\netcoreapp3.1\SoftGamesShop.Web.Tests.dll
 C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main-main-main\Tests\SoftGamesShop.Web.Tests\obj\Debug\netcoreapp3.1\SoftGamesShop.Web.Tests.pdb
 C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main-main-main\Tests\SoftGamesShop.Web.Tests\obj\Debug\netcoreapp3.1\SoftGamesShop.Web.Tests.genruntimeconfig.cache
+C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Tests\SoftGamesShop.Web.Tests\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Google.dll

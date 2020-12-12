@@ -552,7 +552,6 @@ C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Tests\Sandbox\bin\
 C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Tests\Sandbox\bin\Debug\netcoreapp3.1\System.Web.WebPages.Deployment.dll
 C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Tests\Sandbox\bin\Debug\netcoreapp3.1\System.Web.WebPages.Razor.dll
 C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Tests\Sandbox\bin\Debug\netcoreapp3.1\System.Web.WebPages.dll
-C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Tests\Sandbox\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Facebook.dll
 C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Tests\Sandbox\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Tests\Sandbox\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Tests\Sandbox\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll

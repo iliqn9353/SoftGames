@@ -5,6 +5,7 @@
     using System.IO;
     using System.Linq;
     using System.Threading.Tasks;
+
     using SoftGamesShop.Data.Common.Repositories;
     using SoftGamesShop.Data.Models;
 
@@ -144,6 +145,14 @@
             }
 
             return query.Count();
+        }
+
+        public IEnumerable<T> GetLatest<T>(int count)
+        {
+            return this.gameRepository.All()
+               .OrderByDescending(x => x.Id)
+               .Take(count)
+               .To<T>().ToList();
         }
     }
 }

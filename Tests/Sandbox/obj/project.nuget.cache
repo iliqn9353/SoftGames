@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2qdfheC58c9NVurZ46HGn3XuSrQL9rO07j4MXSJNQB/HUI1/pffrXlyTT0oWzbSI+xsSSpyUfYcj9yRbKM5blQ==",
+  "dgSpecHash": "4fBIBl3DKSzuWtVLLXg48oBxucU/HfLrdoRanRzUk5wz5KiGI5yP/jbWw6gKSVuxyINer+c2o3wEK5s4Likhxg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main-main-main\\Tests\\Sandbox\\Sandbox.csproj",
+  "projectFilePath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Tests\\Sandbox\\Sandbox.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ico\\.nuget\\packages\\anglesharp\\0.14.0\\anglesharp.0.14.0.nupkg.sha512",
     "C:\\Users\\Ico\\.nuget\\packages\\anglesharp.css\\0.14.2\\anglesharp.css.0.14.2.nupkg.sha512",

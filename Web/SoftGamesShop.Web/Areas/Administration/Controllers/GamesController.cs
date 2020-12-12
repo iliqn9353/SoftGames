@@ -18,13 +18,11 @@
             this.gameRepository = gameRepository;
         }
 
-        
         public async Task<IActionResult> Index()
         {
             return this.View(await this.gameRepository.AllWithDeleted().ToListAsync());
         }
 
-       
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -47,7 +45,6 @@
             return this.View();
         }
 
-        
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Name,IsDeleted,DeletedOn,Id,CreatedOn,ModifiedOn")] Game game)
@@ -62,7 +59,6 @@
             return this.View(game);
         }
 
-        
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -79,7 +75,6 @@
             return this.View(game);
         }
 
-       
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Name,IsDeleted,DeletedOn,Id,CreatedOn,ModifiedOn")] Game game)
@@ -114,7 +109,6 @@
             return this.View(game);
         }
 
-        
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -132,7 +126,6 @@
             return this.View(game);
         }
 
-        
         [HttpPost]
         [ActionName("Delete")]
         [ValidateAntiForgeryToken]

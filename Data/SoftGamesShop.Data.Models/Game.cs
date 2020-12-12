@@ -3,6 +3,7 @@
     using System;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
+
     using SoftGamesShop.Data.Common.Models;
 
     public class Game : BaseDeletableModel<int>
@@ -17,6 +18,7 @@
             this.GameRatings = new HashSet<GameRating>();
         }
 
+        [Required]
         public string Name { get; set; }
 
         public string Description { get; set; }

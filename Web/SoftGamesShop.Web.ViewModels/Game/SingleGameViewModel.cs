@@ -38,7 +38,7 @@
 
         public string ImageUrl { get; set; }
 
-        public string CreatedById { get; set; }
+        public string CreatedByEmail { get; set; }
 
         public string Content { get; set; }
 

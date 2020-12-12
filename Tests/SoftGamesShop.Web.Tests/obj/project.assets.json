@@ -11953,11 +11953,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main-main-main\\Tests\\SoftGamesShop.Web.Tests\\SoftGamesShop.Web.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Tests\\SoftGamesShop.Web.Tests\\SoftGamesShop.Web.Tests.csproj",
       "projectName": "SoftGamesShop.Web.Tests",
-      "projectPath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main-main-main\\Tests\\SoftGamesShop.Web.Tests\\SoftGamesShop.Web.Tests.csproj",
+      "projectPath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Tests\\SoftGamesShop.Web.Tests\\SoftGamesShop.Web.Tests.csproj",
       "packagesPath": "C:\\Users\\Ico\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main-main-main\\Tests\\SoftGamesShop.Web.Tests\\obj\\",
+      "outputPath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Tests\\SoftGamesShop.Web.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ico\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -11974,8 +11974,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main-main-main\\Web\\SoftGamesShop.Web\\SoftGamesShop.Web.csproj": {
-              "projectPath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main-main-main\\Web\\SoftGamesShop.Web\\SoftGamesShop.Web.csproj"
+            "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Web\\SoftGamesShop.Web\\SoftGamesShop.Web.csproj": {
+              "projectPath": "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Web\\SoftGamesShop.Web\\SoftGamesShop.Web.csproj"
             }
           }
         }

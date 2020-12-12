@@ -12,10 +12,10 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap4")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("SoftGamesShop.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main-main-main\\Data\\Soft" +
-    "GamesShop.Data", "SoftGamesShop.Data.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("SoftGamesShop.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main-main-main\\Web\\SoftG" +
-    "amesShop.Web", "SoftGamesShop.Web.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("SoftGamesShop.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Data\\SoftGamesShop." +
+    "Data", "SoftGamesShop.Data.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("SoftGamesShop.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\Ico\\Desktop\\SoftGamesShop-newest-down-main-main-main\\Web\\SoftGamesShop.W" +
+    "eb", "SoftGamesShop.Web.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("SoftGamesShop.Web.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

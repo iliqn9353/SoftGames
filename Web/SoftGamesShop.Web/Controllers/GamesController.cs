@@ -20,9 +20,9 @@
 
     public class GamesController : Controller
     {
+        private const int ItemsPerPage = 8;
         private readonly IGamesService gamesService;
         private readonly IHostingEnvironment hostingEnvironment;
-        private const int ItemsPerPage = 8;
 
         private readonly IGenreService genreService;
         private readonly IPlatformService platformService;
@@ -30,10 +30,14 @@
         private readonly IRatingService ratingService;
         private readonly UserManager<ApplicationUser> userManager;
 
-        public GamesController(IGamesService gamesService, IHostingEnvironment hostingEnvironment,
-             IGenreService genreService, UserManager<ApplicationUser> userManager,
-             IPlatformService platformService, IDeletableEntityRepository<Game> gameRepository,
-             IRatingService ratingService)
+        public GamesController(
+            IGamesService gamesService,
+            IHostingEnvironment hostingEnvironment,
+            IGenreService genreService,
+            UserManager<ApplicationUser> userManager,
+            IPlatformService platformService,
+            IDeletableEntityRepository<Game> gameRepository,
+            IRatingService ratingService)
         {
             this.gamesService = gamesService;
             this.hostingEnvironment = hostingEnvironment;

@@ -4327,7 +4327,6 @@ C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Web\SoftGamesShop.
 C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Web\SoftGamesShop.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Web\SoftGamesShop.Web\obj\Debug\netcoreapp3.1\Razor\Views\Login\Login.cshtml.g.cs
 C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Web\SoftGamesShop.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
-C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Web\SoftGamesShop.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\PagingSearch.cshtml.g.cs
 C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Web\SoftGamesShop.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
 C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Web\SoftGamesShop.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Web\SoftGamesShop.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
@@ -5358,3 +5357,4 @@ C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main-main-main\Web\Soft
 C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main-main-main\Web\SoftGamesShop.Web\obj\Debug\netcoreapp3.1\SoftGamesShop.Web.dll
 C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main-main-main\Web\SoftGamesShop.Web\obj\Debug\netcoreapp3.1\SoftGamesShop.Web.pdb
 C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main-main-main\Web\SoftGamesShop.Web\obj\Debug\netcoreapp3.1\SoftGamesShop.Web.genruntimeconfig.cache
+C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Web\SoftGamesShop.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Favicons.cshtml.g.cs

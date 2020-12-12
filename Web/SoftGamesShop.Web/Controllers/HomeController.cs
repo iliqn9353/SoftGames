@@ -6,14 +6,18 @@
     using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Mvc;
     using SoftGamesShop.Data;
+    using SoftGamesShop.Services;
     using SoftGamesShop.Web.ViewModels;
+    using SoftGamesShop.Web.ViewModels.Game;
 
     public class HomeController : BaseController
     {
+        private readonly IGamesService gamesService;
         private readonly ApplicationDbContext db;
 
-        public HomeController(ApplicationDbContext db)
+        public HomeController(IGamesService gamesService, ApplicationDbContext db)
         {
+            this.gamesService = gamesService;
             this.db = db;
         }
 
@@ -23,7 +27,7 @@
             return this.View();
         }
 
-        public IActionResult Index(string searching)
+        public IActionResult Index()
         {
             var model = new SoftGamesShop.Web.ViewModels.Home.IndexViewModel
             {
@@ -31,16 +35,9 @@
                 GenreCount = this.db.Genres.Count(),
                 PlatformsCount = this.db.Platforms.Count(),
                 ImagesCount = this.db.Images.Count(),
+                LatestGame = this.gamesService.GetLatest<AllGamesViewModel>(3),
             };
             return this.View(model);
-
-            //return View(db.Games.Where(x => x.Name.Contains(searching) || searching == null).ToList());
-
-            //var webClient = new WebClient();
-            //var json = webClient.DownloadString(@"C:\Users\Ico\Desktop\SoftGamesShop-newest-main\Web\SoftGamesShop.Web\wwwroot\Json\games.json");
-            //var games = JsonConvert.DeserializeObject<Game>(json);
-
-            //return View(games);
         }
 
         public IActionResult Privacy()
