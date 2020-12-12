@@ -24,7 +24,7 @@ comment on each game and reply to other users there is a live chat so u can chat
 * Google for developers
 
 ### Home Page
-![screencapture-localhost-44319-2020-12-11-19_22_19](https://user-images.githubusercontent.com/55882205/101935604-02c74f80-3be8-11eb-90d5-3d0e8fb13249.png)
+![home](https://user-images.githubusercontent.com/55882205/101983859-36f14d80-3c86-11eb-8366-f6ebe6e4d79f.png)
 
 ### Add game Page
 ![create](https://user-images.githubusercontent.com/55882205/101935699-2094b480-3be8-11eb-8708-63c46b1e6d7d.png)
