@@ -26,8 +26,15 @@ using SoftGamesShop.Web.ViewModels;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Web\SoftGamesShop.Web\Views\_ViewImports.cshtml"
+using SoftGamesShop.Web.ViewComponents;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f5ecc9d1b9c845b07b5a050085770573eb11dd6e", @"/Views/UserCollection/MyCollection.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a501831df690b6fbc32668beef98a2dd8c198c7b", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9262a2bde2120653c4566c4d616dcc84154a3d1c", @"/Views/_ViewImports.cshtml")]
     public class Views_UserCollection_MyCollection : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Games", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -65,7 +72,7 @@ using SoftGamesShop.Web.ViewModels;
 #line hidden
 #nullable disable
             WriteLiteral("\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f5ecc9d1b9c845b07b5a050085770573eb11dd6e4246", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f5ecc9d1b9c845b07b5a050085770573eb11dd6e4477", async() => {
                 WriteLiteral("\n    <style>\n        body {\n            background-image: url(\'https://cdn.wallpapersafari.com/82/19/F9ielj.jpg\');\n        }\n    </style>\n");
             }
             );
@@ -109,7 +116,7 @@ WriteAttributeValue("", 489, game.ImageUrl, 489, 14, false);
 #nullable disable
             EndWriteAttribute();
             WriteLiteral("\n                  \n                             height=\"350\" width=\"200\">\n\n            <div class=\"card-body\">\n\n                <h5 class=\"card-title text-center\">\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f5ecc9d1b9c845b07b5a050085770573eb11dd6e6843", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f5ecc9d1b9c845b07b5a050085770573eb11dd6e7074", async() => {
 #nullable restore
 #line 27 "C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Web\SoftGamesShop.Web\Views\UserCollection\MyCollection.cshtml"
                                                                                        Write(game.Name);

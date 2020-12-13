@@ -26,8 +26,15 @@ using SoftGamesShop.Web.ViewModels;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Web\SoftGamesShop.Web\Views\_ViewImports.cshtml"
+using SoftGamesShop.Web.ViewComponents;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"68823d9ecd94a53a71eef4025f82878b426212fe", @"/Views/Games/ById.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a501831df690b6fbc32668beef98a2dd8c198c7b", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9262a2bde2120653c4566c4d616dcc84154a3d1c", @"/Views/_ViewImports.cshtml")]
     public class Views_Games_ById : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<SoftGamesShop.Web.ViewModels.Game.SingleGameViewModel>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("rounded"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -74,7 +81,7 @@ using SoftGamesShop.Web.ViewModels;
 #line default
 #line hidden
 #nullable disable
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "68823d9ecd94a53a71eef4025f82878b426212fe6816", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "68823d9ecd94a53a71eef4025f82878b426212fe7047", async() => {
                 WriteLiteral("\n    <style>\n        body {\n            background-image: url(\'https://cdn.wallpapersafari.com/82/19/F9ielj.jpg\');\n        }\r\n        #removeFavourite {\r\n            display: none;\r\n        }\n    </style>\n");
             }
             );
@@ -217,7 +224,7 @@ WriteAttributeValue("", 2300, Model.ImageUrl, 2300, 15, false);
 #nullable disable
             EndWriteAttribute();
             WriteLiteral(">\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "68823d9ecd94a53a71eef4025f82878b426212fe13638", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "68823d9ecd94a53a71eef4025f82878b426212fe13869", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_ImageTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.ImageTagHelper>();
@@ -335,7 +342,7 @@ WriteAttributeValue("", 2830, Url.Action( "AddToCollection","UserCollection", ne
 #line hidden
 #nullable disable
             WriteLiteral("</p>\n\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div class=\"text-muted small ml-3\">\n        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "68823d9ecd94a53a71eef4025f82878b426212fe20073", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "68823d9ecd94a53a71eef4025f82878b426212fe20304", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper>();
@@ -475,7 +482,7 @@ WriteAttributeValue("", 4902, Model.Trailer.Replace("watch?v=","embed/"), 4902, 
 </script>
 <div>
     ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "68823d9ecd94a53a71eef4025f82878b426212fe26687", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "68823d9ecd94a53a71eef4025f82878b426212fe26918", async() => {
                 WriteLiteral("\n        <input type=\"hidden\" name=\"GameId\"");
                 BeginWriteAttribute("value", " value=\"", 5602, "\"", 5624, 1);
 #nullable restore

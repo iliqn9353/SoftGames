@@ -2,9 +2,7 @@
 {
     using System.Collections.Generic;
 
-    using SoftGamesShop.Web.ViewModels.Pages;
-
-    public class MyCollectionListViewModel : PageViewModel
+    public class MyCollectionListViewModel
     {
         public IEnumerable<MyCollectionViewModel> Games { get; set; }
     }

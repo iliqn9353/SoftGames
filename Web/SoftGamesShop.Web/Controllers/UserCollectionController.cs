@@ -34,12 +34,11 @@
 
         public async Task<IActionResult> AddToCollection(int gameId, string name)
         {
-
             var user = await this.userManager.GetUserAsync(this.User);
 
             await this.usersService.AddGameToUserCollection(name, user.Id, gameId);
 
-            //return View("/Games/ById/")
+            // return View("/Games/ById/")
             return this.Redirect($"/Games/ById/{gameId}");
 
             // return this.Redirect("/UserCollection/MyCollection");

@@ -17,7 +17,6 @@
         private readonly IDeletableEntityRepository<Game> gameRepository;
         private readonly IDeletableEntityRepository<Genre> genreRepository;
         private readonly IDeletableEntityRepository<Platform> platformRepository;
-        private readonly IUsersService usersService;
         private readonly IDeletableEntityRepository<Rating> ratingRepository;
         private readonly string[] allowedExtensions = new[] { "jpg", "png", "gif" };
 
@@ -25,13 +24,11 @@
             IDeletableEntityRepository<Game> gameRepository,
             IDeletableEntityRepository<Genre> genreRepository,
             IDeletableEntityRepository<Platform> platformRepository,
-            IUsersService usersService,
             IDeletableEntityRepository<Rating> ratingRepository)
         {
             this.gameRepository = gameRepository;
             this.genreRepository = genreRepository;
             this.platformRepository = platformRepository;
-            this.usersService = usersService;
             this.ratingRepository = ratingRepository;
         }
 
@@ -104,11 +101,10 @@
             return game;
         }
 
-        public IEnumerable<T> GetAll<T>(int page, int itemsPerPage = 8)
+        public IEnumerable<T> GetAll<T>()
         {
             var games = this.gameRepository.AllAsNoTracking()
                 .OrderByDescending(x => x.Id)
-                .Skip((page - 1) * itemsPerPage).Take(itemsPerPage)
                 .To<T>().ToList();
             return games;
         }
@@ -116,13 +112,6 @@
         public int GetCount()
         {
             return this.gameRepository.All().Count();
-        }
-
-        public IEnumerable<T> GetForSearch<T>()
-        {
-            var games = this.gameRepository.All()
-                .To<T>().ToList();
-            return games;
         }
 
         public IEnumerable<T> GetByName<T>(string search)
@@ -153,6 +142,28 @@
                .OrderByDescending(x => x.Id)
                .Take(count)
                .To<T>().ToList();
+        }
+
+        public IEnumerable<T> SortAToZ<T>()
+        {
+            return this.gameRepository.All()
+             .OrderBy(x => x.Name)
+             .To<T>().ToList();
+        }
+
+        IEnumerable<T> IGamesService.PaginationGames<T>(int id, IEnumerable<T> data, int max)
+        {
+            int skip = (id - 1) * max;
+            var resultData = data.Skip(skip).Take(max).ToList();
+            int pageCount = (int)Math.Ceiling(data.Count() / (decimal)max);
+            return resultData;
+        }
+
+        public IEnumerable<T> SortDateAdded<T>()
+        {
+            return this.gameRepository.All()
+             .OrderBy(x => x.CreatedOn)
+             .To<T>().ToList();
         }
     }
 }

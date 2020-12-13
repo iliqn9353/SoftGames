@@ -16,6 +16,7 @@
         {
             this.platformRepository = platformRepository;
         }
+
         public IEnumerable<KeyValuePair<string, string>> GetAllAsKeyValuePairs()
         {
             return this.platformRepository.AllAsNoTracking()

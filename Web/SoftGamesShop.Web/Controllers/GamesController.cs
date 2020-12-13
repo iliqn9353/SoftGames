@@ -8,15 +8,13 @@
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.AspNetCore.Identity;
     using Microsoft.AspNetCore.Mvc;
-    using SoftGamesShop.Data.Common.Repositories;
     using SoftGamesShop.Data.Models;
     using SoftGamesShop.Services;
-
+    using SoftGamesShop.Web.ViewModels;
     using SoftGamesShop.Web.ViewModels.Game;
     using SoftGamesShop.Web.ViewModels.Genre;
     using SoftGamesShop.Web.ViewModels.Platform;
     using SoftGamesShop.Web.ViewModels.Rating;
-    using SoftGamesShop.Web.ViewModels.Search;
 
     public class GamesController : Controller
     {
@@ -26,7 +24,6 @@
 
         private readonly IGenreService genreService;
         private readonly IPlatformService platformService;
-        private readonly IDeletableEntityRepository<Game> gameRepository;
         private readonly IRatingService ratingService;
         private readonly UserManager<ApplicationUser> userManager;
 
@@ -36,7 +33,6 @@
             IGenreService genreService,
             UserManager<ApplicationUser> userManager,
             IPlatformService platformService,
-            IDeletableEntityRepository<Game> gameRepository,
             IRatingService ratingService)
         {
             this.gamesService = gamesService;
@@ -44,7 +40,6 @@
             this.genreService = genreService;
             this.userManager = userManager;
             this.platformService = platformService;
-            this.gameRepository = gameRepository;
             this.ratingService = ratingService;
         }
 
@@ -81,12 +76,19 @@
                 return this.NotFound();
             }
 
-            var viewModel = new AllGamesListViewModel
+            var games = this.gamesService.GetAll<AllGamesViewModel>();
+            var result = this.gamesService.PaginationGames<AllGamesViewModel>(id, games, ItemsPerPage);
+            var viewModel = new AllGamesListSearchViewModel
             {
-                ItemsPerPage = ItemsPerPage,
-                PageNumber = id,
-                GamesCount = this.gamesService.GetCount(),
-                Games = this.gamesService.GetAll<AllGamesViewModel>(id, ItemsPerPage),
+                Games = result,
+                PaginationViewModel = new PaginationViewModel
+                {
+                    CurrentPage = id,
+                    PagesCount = (int)Math.Ceiling(games.Count() / (decimal)ItemsPerPage),
+                    DataCount = games.Count(),
+                    Controller = "Games",
+                    Action = "All",
+                },
             };
 
             return this.View(viewModel);
@@ -98,21 +100,78 @@
             return this.View(game);
         }
 
-        [HttpGet]
-        public IActionResult Search(string searchString, int id = 1)
+        public IActionResult Index(SeachGameViewModel search, int? id = 1)
         {
-            if (id <= 0)
+            if (search.GameName != null)
             {
-                return this.NotFound();
+                return this.RedirectToAction("SearchByGameName", new { id = id, search = search.GameName });
             }
 
-            var games = this.gamesService.GetByName<AllGamesViewModel>(searchString);
+            return this.NotFound();
+        }
 
-            var viewModel = new SearchGameViewModel
+        public IActionResult SearchByGameName(int id, string search)
+        {
+            var games = this.gamesService.GetByName<AllGamesViewModel>(search);
+
+            var result = this.gamesService.PaginationGames<AllGamesViewModel>(id, games, ItemsPerPage);
+            var viewModel = new AllGamesListSearchViewModel
             {
-                Games = games,
+                Games = result,
+
+                PaginationViewModel = new PaginationViewModel
+                {
+                    CurrentPage = id,
+                    PagesCount = (int)Math.Ceiling(games.Count() / (decimal)ItemsPerPage),
+                    DataCount = games.Count(),
+                    Controller = "Games",
+                    Action = "SearchByGameName",
+                    Search = search,
+                },
             };
-            return this.View("Views/Games/Search.cshtml", viewModel);
+            return this.View("Views/Games/All.cshtml", viewModel);
+        }
+
+        public IActionResult SortAlphabetical(int id = 1)
+        {
+            var games = this.gamesService.SortAToZ<AllGamesViewModel>();
+
+            var result = this.gamesService.PaginationGames<AllGamesViewModel>(id, games, ItemsPerPage);
+            var viewModel = new AllGamesListSearchViewModel
+            {
+                Games = result,
+
+                PaginationViewModel = new PaginationViewModel
+                {
+                    CurrentPage = id,
+                    PagesCount = (int)Math.Ceiling(games.Count() / (decimal)ItemsPerPage),
+                    DataCount = games.Count(),
+                    Controller = "Games",
+                    Action = "SortAlphabetical",
+                },
+            };
+            return this.View("Views/Games/All.cshtml", viewModel);
+        }
+
+        public IActionResult SortDateAdded(int id = 1)
+        {
+            var games = this.gamesService.SortDateAdded<AllGamesViewModel>();
+
+            var result = this.gamesService.PaginationGames<AllGamesViewModel>(id, games, ItemsPerPage);
+            var viewModel = new AllGamesListSearchViewModel
+            {
+                Games = result,
+
+                PaginationViewModel = new PaginationViewModel
+                {
+                    CurrentPage = id,
+                    PagesCount = (int)Math.Ceiling(games.Count() / (decimal)ItemsPerPage),
+                    DataCount = games.Count(),
+                    Controller = "Games",
+                    Action = "SortDateAdded",
+                },
+            };
+            return this.View("Views/Games/All.cshtml", viewModel);
         }
     }
 }

@@ -1,15 +1,12 @@
 ﻿namespace SoftGamesShop.Services
 {
-    using System;
-    using System.Collections.Generic;
     using System.Linq;
-    using System.Text;
     using System.Threading.Tasks;
 
     using SoftGamesShop.Data.Common.Repositories;
     using SoftGamesShop.Data.Models;
 
-   public class CommentsService:ICommentsService
+    public class CommentsService : ICommentsService
     {
         private readonly IDeletableEntityRepository<Comment> commentsRepository;
 

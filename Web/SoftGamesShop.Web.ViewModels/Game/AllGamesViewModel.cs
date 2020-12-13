@@ -8,7 +8,7 @@
     using SoftGamesShop.Data.Models;
     using SoftGamesShop.Services.Mapping;
 
-    public class AllGamesViewModel : IMapFrom<Game>, IMapFrom<UserCollection>, IHaveCustomMappings
+    public class AllGamesViewModel : IMapFrom<Game>, IMapFrom<UserCollection>,IMapTo<Game>, IHaveCustomMappings
     {
         public int Id { get; set; }
 
@@ -24,9 +24,15 @@
 
         public int PlayersCount { get; set; }
 
+        public int VotesCount { get; set; }
+
         public void CreateMappings(IProfileExpression configuration)
         {
             configuration.CreateMap<Game, AllGamesViewModel>()
+                .ForMember(x => x.VotesCount, options =>
+                {
+                    options.MapFrom(p => p.Votes.Sum(v => (int)v.VoteKind));
+                })
                 .ForMember(x => x.ImageUrl, opt =>
                     opt.MapFrom(x =>
                         x.Images.FirstOrDefault().RemoteImageUrl != null ?

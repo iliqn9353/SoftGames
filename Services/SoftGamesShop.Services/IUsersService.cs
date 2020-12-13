@@ -15,6 +15,5 @@
         IEnumerable<T> GetAll<T>();
 
         Task RemoveGameFromUserCollection(string userId, int gameId);
-        
     }
 }

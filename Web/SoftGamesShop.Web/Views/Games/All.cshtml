@@ -1,6 +1,6 @@
-﻿@model SoftGamesShop.Web.ViewModels.Game.AllGamesListViewModel
+﻿@model SoftGamesShop.Web.ViewModels.Game.AllGamesListSearchViewModel
 
-@{ ViewData["Title"] = "All Games" + " " + "Page" + " " + Model.PageNumber; }
+@{ ViewData["Title"] = "All Games" + " " + "Page" + " " + Model.PaginationViewModel.CurrentPage; }
 
 <head>
     <style>
@@ -10,47 +10,67 @@
     </style>
 </head>
 <h4 class="text-center text-uppercase">List of Games</h4>
-<form asp-controller="Games" asp-action="Search" method="get">
+<div class="dropdown text-md-left text-center float-md-left mb-3 mt-3 mt-md-0 mb-md-0 ">
+    <label class="mr-2">Sort by :</label>
+    <button class="btn btn-lg btn-dark dropdown-toggle" onclick="sort()"></button>
+    <div class="dropdown-menu bg-dark" hidden="hidden">
+        <a asp-controller="Games" asp-action="SortAlphabetical" class="dropdown-item bg-dark h4">A-Z</a>
+        <a asp-controller="Games" asp-action="SortDateAdded" class="dropdown-item bg-dark h4">Date Added</a>
+
+    </div>
+</div>
+<form asp-controller="Games" asp-action="Index" method="get">
 
     <div class="form-group">
         <div class="input-group">
-            <input class="form-control" type="text" placeholder="Search By Name" name="searchString" value="@ViewData["currentFilter"]" />
+            <input class="form-control" type="text" name="gameName" placeholder="Search By Name" aria-label="Search" />
             <span class="input-group-btn">
                 <input type="submit" value="Search" class="btn btn-success" />
             </span>
         </div>
     </div>
-  
+
 </form>
 
 <div class="row mt-2 mb-4">
     @foreach (var item in Model.Games)
     {
-    <div class="card col-6 col-lg-3 game-card">
-        
-            <div style="padding-bottom:11px; height:100%">
+<div class="card col-6 col-lg-3 game-card">
+
+    <div style="padding-bottom:11px; height:100%">
 
 
-                <div class="card border-primary" style="height: 100%">
-                    <img class="card-img-top" alt="@item.Name" src="@item.ImageUrl"
-                         
-                             height="350" width="200">
-                    <div class="card-body card-noboday" style="text-align:center;">
-                    </div>
-                    <div class="card-footer bg-transparent" style="text-align:center;">
-                        <a asp-action="ById" asp-route-id="@item.Id">@item.Name</a>
+        <div class="card border-primary" style="height: 100%">
+            <img class="card-img-top" alt="@item.Name" src="@item.ImageUrl"
+                 height="350" width="200">
+            <div class="card-body card-noboday" style="text-align:center;">
+            </div>
+            <div class="card-footer bg-transparent" style="text-align:center;">
+                <a asp-action="ById" asp-route-id="@item.Id">@item.Name</a>
 
-                        <p>Release Date: @item.ReleaseDate.ToString("dd/MM/yyyy")</p>
+                <p>Release Date: @item.ReleaseDate.ToString("dd/MM/yyyy")</p>
 
-
-                    </div>
-                </div>
 
             </div>
         </div>
-    }
+
     </div>
+</div>}
+</div>
 
-    <partial name="_PagingPartial" model="@Model" />
+<script>
+    function sort() {
+        const divItem = $('.dropdown-menu');
+        if (divItem.attr('hidden')) {
+            divItem.removeAttr('hidden');
+            divItem.show('slow');
+        } else {
+            divItem.attr('hidden', 'hidden');
+            divItem.hide('slow');
+        }
+        console.log(divItem.attr('hidden'));
+    }
+</script>
+@{ var pagination = Model.PaginationViewModel; }
 
-
+@(await Component.InvokeAsync<PaginationViewComponent>(pagination))

@@ -9,9 +9,16 @@
     {
         Task CreateGame(AddGameInputModel input, string userId, string imagePath);
 
-        IEnumerable<T> GetAll<T>(int page, int itemsPerPage = 8);
+        IEnumerable<T> GetAll<T>();
 
-        IEnumerable<T> GetForSearch<T>();
+        IEnumerable<T> SortAToZ<T>();
+
+        IEnumerable<T> SortDateAdded<T>();
+
+        IEnumerable<T> PaginationGames<T>(
+            int id,
+            IEnumerable<T> data,
+            int max);
 
         IEnumerable<T> GetLatest<T>(int count);
 
