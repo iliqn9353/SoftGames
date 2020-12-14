@@ -1,15 +1,16 @@
 ﻿namespace SoftGamesShop.Web.Controllers
 {
     using System.Threading.Tasks;
-    using System.Web.Mvc;
 
+    using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Identity;
     using Microsoft.AspNetCore.Mvc;
+    using SoftGamesShop.Data;
 
     using SoftGamesShop.Data.Models;
     using SoftGamesShop.Services;
 
-    public class UserCollectionController : Microsoft.AspNetCore.Mvc.Controller
+    public class UserCollectionController : Controller
     {
         private readonly UserManager<ApplicationUser> userManager;
         private readonly IUsersService usersService;

@@ -102,17 +102,12 @@
 
         public IActionResult Index(SeachGameViewModel search, int? id = 1)
         {
-            var vm = new MyErrorViewModel
-            {
-                Description="No game found !"
-            };
             if (search.GameName != null)
             {
                 return this.RedirectToAction("SearchByGameName", new { id = id, search = search.GameName });
             }
 
-            //return this.NotFound();
-            return this.View("Views/Error/NotFound.cshtml",vm);
+            return this.Redirect("Views/Error/NotFound.cshtml");
         }
 
         public IActionResult SearchByGameName(int id, string search)

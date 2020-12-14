@@ -1,12 +1,14 @@
 ﻿namespace SoftGamesShop.Web.ViewModels.Game
 {
     using System;
+    using System.Collections.Generic;
     using System.Linq;
 
     using AutoMapper;
     using Microsoft.AspNetCore.Http;
     using SoftGamesShop.Data.Models;
     using SoftGamesShop.Services.Mapping;
+    using SoftGamesShop.Web.ViewModels.Genre;
 
     public class AllGamesViewModel : IMapFrom<Game>, IMapFrom<UserCollection>,IMapTo<Game>, IHaveCustomMappings
     {

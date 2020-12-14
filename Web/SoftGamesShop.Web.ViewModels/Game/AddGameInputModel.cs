@@ -53,6 +53,8 @@
 
         public IEnumerable<RatingViewModel> Ratings { get; set; }
 
+        [Required(ErrorMessage = "Please select a picture.")]
+        [DataType(DataType.Upload)]
         public IEnumerable<IFormFile> Images { get; set; }
     }
 }
