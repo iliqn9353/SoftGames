@@ -102,12 +102,17 @@
 
         public IActionResult Index(SeachGameViewModel search, int? id = 1)
         {
+            var vm = new MyErrorViewModel
+            {
+                Description="No game found !"
+            };
             if (search.GameName != null)
             {
                 return this.RedirectToAction("SearchByGameName", new { id = id, search = search.GameName });
             }
 
-            return this.NotFound();
+            //return this.NotFound();
+            return this.View("Views/Error/NotFound.cshtml",vm);
         }
 
         public IActionResult SearchByGameName(int id, string search)
@@ -153,6 +158,27 @@
             return this.View("Views/Games/All.cshtml", viewModel);
         }
 
+        public IActionResult SortAlphabeticalLast(int id = 1)
+        {
+            var games = this.gamesService.SortZToA<AllGamesViewModel>();
+
+            var result = this.gamesService.PaginationGames<AllGamesViewModel>(id, games, ItemsPerPage);
+            var viewModel = new AllGamesListSearchViewModel
+            {
+                Games = result,
+
+                PaginationViewModel = new PaginationViewModel
+                {
+                    CurrentPage = id,
+                    PagesCount = (int)Math.Ceiling(games.Count() / (decimal)ItemsPerPage),
+                    DataCount = games.Count(),
+                    Controller = "Games",
+                    Action = "SortAlphabeticalLast",
+                },
+            };
+            return this.View("Views/Games/All.cshtml", viewModel);
+        }
+
         public IActionResult SortDateAdded(int id = 1)
         {
             var games = this.gamesService.SortDateAdded<AllGamesViewModel>();
@@ -169,6 +195,27 @@
                     DataCount = games.Count(),
                     Controller = "Games",
                     Action = "SortDateAdded",
+                },
+            };
+            return this.View("Views/Games/All.cshtml", viewModel);
+        }
+
+        public IActionResult SortDateAddedNew(int id = 1)
+        {
+            var games = this.gamesService.SortDateAddedNew<AllGamesViewModel>();
+
+            var result = this.gamesService.PaginationGames<AllGamesViewModel>(id, games, ItemsPerPage);
+            var viewModel = new AllGamesListSearchViewModel
+            {
+                Games = result,
+
+                PaginationViewModel = new PaginationViewModel
+                {
+                    CurrentPage = id,
+                    PagesCount = (int)Math.Ceiling(games.Count() / (decimal)ItemsPerPage),
+                    DataCount = games.Count(),
+                    Controller = "Games",
+                    Action = "SortDateAddedNew",
                 },
             };
             return this.View("Views/Games/All.cshtml", viewModel);

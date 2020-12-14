@@ -13,7 +13,11 @@
 
         IEnumerable<T> SortAToZ<T>();
 
+        IEnumerable<T> SortZToA<T>();
+
         IEnumerable<T> SortDateAdded<T>();
+
+        IEnumerable<T> SortDateAddedNew<T>();
 
         IEnumerable<T> PaginationGames<T>(
             int id,

@@ -1,4 +1,4 @@
-﻿@model SoftGamesShop.Data.Models.ContactsModel
+﻿@model SoftGamesShop.Web.ViewModels.Contacts.ContactFormViewModel
 @{
     ViewData["Title"] = "Contact";
 }
@@ -17,29 +17,29 @@
             <div class="row">
                 <div class="form-group col-md-4">
                     <label asp-for="Name">Name:</label>
-                    <input asp-for="Name" class="form-control" />
-                    <span asp-validation-for="Name" class="text-muted"></span>
+                    <input asp-for="Name" class="form-control" placeholder="Your Name"/>
+                    <span asp-validation-for="Name" class="text-danger"></span>
                 </div>
             </div>
             <div class="row">
                 <div class="form-group col-md-4">
                     <label asp-for="Email">Email:</label>
-                    <input asp-for="Email" class="form-control" />
-                    <span asp-validation-for="Email" class="text-muted"></span>
+                    <input asp-for="Email" class="form-control" placeholder="Your Email"/>
+                    <span asp-validation-for="Email" class="text-danger"></span>
                 </div>
             </div>
             <div class="row">
                 <div class="form-group col-md-4">
-                    <label asp-for="Subject">Subject:</label>
-                    <input asp-for="Subject" class="form-control" />
-                    <span asp-validation-for="Subject" class="text-muted"></span>
+                    <label asp-for="Title">Subject:</label>
+                    <input asp-for="Title" class="form-control" placeholder="How can we help you ?"/>
+                    <span asp-validation-for="Title" class="text-danger"></span>
                 </div>
             </div>
             <div class="row">
                 <div class="form-group col-md-6">
-                    <label asp-for="Message">Message:</label>
-                    <textarea rows="8" cols="20" asp-for="Message" class="form-control"></textarea>
-                    <span asp-validation-for="Message" class="text-muted"></span>
+                    <label asp-for="Content">Message:</label>
+                    <textarea rows="8" cols="20" asp-for="Content" class="form-control" placeholder="Please describe... "></textarea>
+                    <span asp-validation-for="Content" class="text-danger"></span>
                 </div>
             </div>
             <div>
@@ -56,7 +56,7 @@
     <script src="https://maps.googleapis.com/maps/api/js?"></script>
 </head>
 <body>
-    <input type="button" value="Click to Display Map" onclick="DisplayGoogleMap()" />
+    <input type="button"  value="Click to Display Map" onclick="DisplayGoogleMap()" />
     <div id="myDiv" style="width:90%;height:300px;"></div>
 
     <script type="text/javascript">

@@ -5357,3 +5357,4 @@ C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main-main-main\Web\Soft
 C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main-main-main\Web\SoftGamesShop.Web\obj\Debug\netcoreapp3.1\SoftGamesShop.Web.genruntimeconfig.cache
 C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Web\SoftGamesShop.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Favicons.cshtml.g.cs
 C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Web\SoftGamesShop.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Pagination\Default.cshtml.g.cs
+C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Web\SoftGamesShop.Web\obj\Debug\netcoreapp3.1\Razor\Views\Error\NotFound.cshtml.g.cs

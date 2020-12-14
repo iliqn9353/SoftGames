@@ -5,11 +5,12 @@
     public class ContactFormViewModel
     {
         [Required(AllowEmptyStrings = false, ErrorMessage = "Please enter you'r name")]
+        [StringLength(10, ErrorMessage = "Name must be at least {2} and not more than {1} symbols.", MinimumLength = 3)]
         [Display(Name = "You'r name here.")]
         public string Name { get; set; }
 
         [Required(AllowEmptyStrings = false, ErrorMessage = "Please enter you'r email adress")]
-        [EmailAddress(ErrorMessage = "Please enter a valid email address")]
+        [EmailAddress(ErrorMessage = "Please enter a valid email address.")]
         [Display(Name = "You'r email address")]
         public string Email { get; set; }
 

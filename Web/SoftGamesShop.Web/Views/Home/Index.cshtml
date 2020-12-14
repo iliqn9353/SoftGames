@@ -17,9 +17,7 @@
             @foreach (var game in this.Model.LatestGame)
             {
                 <div class="card col-md-4">
-                    <img class="img-fluid" src="@game.ImageUrl" alt="@game.Name"
-                         
-                           >
+                    <img class="img-fluid" src="@game.ImageUrl" alt="@game.Name">
                     <div class="card-body">
                         <h5 class="card-title">@game.Name</h5>
                         <p>Release Date: @game.ReleaseDate.ToString("dd/MM/yyyy")</p>

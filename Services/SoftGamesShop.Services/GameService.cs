@@ -165,5 +165,19 @@
              .OrderBy(x => x.CreatedOn)
              .To<T>().ToList();
         }
+
+        public IEnumerable<T> SortZToA<T>()
+        {
+            return this.gameRepository.All()
+             .OrderByDescending(x => x.Name)
+             .To<T>().ToList();
+        }
+
+        public IEnumerable<T> SortDateAddedNew<T>()
+        {
+            return this.gameRepository.All()
+             .OrderByDescending(x => x.CreatedOn)
+             .To<T>().ToList();
+        }
     }
 }

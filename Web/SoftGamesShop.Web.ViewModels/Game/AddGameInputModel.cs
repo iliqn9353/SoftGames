@@ -14,12 +14,12 @@
     {
         public int Id { get; set; }
 
-        [Required(AllowEmptyStrings = false, ErrorMessage = "Please enter the game Name (Title)")]
+        [Required(AllowEmptyStrings = false, ErrorMessage = "Please enter the game Name (Title).")]
         [StringLength(50, ErrorMessage = "Name must be at least {2} and not more than {1} symbols.", MinimumLength = 3)]
         [Display(Name = "Game Name (Title)", Prompt = "Game name goes here...")]
         public string Name { get; set; }
 
-        [Required(AllowEmptyStrings = false, ErrorMessage = "Please enter a description")]
+        [Required(AllowEmptyStrings = false, ErrorMessage = "Please enter a description.")]
         [StringLength(2000, ErrorMessage = "Description must be at least {2} and not more than {1} symbols.", MinimumLength = 10)]
         [Display(Name = "Game Description", Prompt = "No description is currently available for this game, please feel free to add one.")]
         public string Description { get; set; }
