@@ -6,7 +6,7 @@
 **SoftGames** is my defense project for **ASP.NET Core** course at [SoftUni](https://softuni.bg/trainings/3177/asp-dot-net-core-october-2020/internal). It is a ready-to-use ASP.NET Core application.
 
 ## :pencil: Project Description
-This is a social network for all gamers. You can browse our games,
+This is a game database for all gamers. You can browse our games,
 add new ones,save them to your personal collection,watch game trailers,
 comment on each game and reply to other users there is a live chat so u can chat with each other you can send us an email and search for your favorite game!
 
