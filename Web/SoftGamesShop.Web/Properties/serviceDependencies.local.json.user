@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2020-12-14T13:18:39.2288998Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2020-12-14T16:41:58.424769Z"
+    },
+    "appInsights1": {
+      "restored": true,
+      "restoreTime": "2020-12-14T13:18:54.1632487Z"
+    }
+  },
+  "parameters": {
+    "appInsights1.subscriptionId": {
+      "Name": "appInsights1.subscriptionId",
+      "Type": "subscription",
+      "Value": "f23bcc71-a3be-4771-b306-207ab22c807a"
+    },
+    "appInsights1.resourceGroupName": {
+      "Name": "appInsights1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "softgames"
+    }
+  }
+}

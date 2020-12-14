@@ -1,0 +1,9 @@
+C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Data\SoftGamesShop.Data.Common\bin\Release\netstandard2.1\SoftGamesShop.Data.Common.deps.json
+C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Data\SoftGamesShop.Data.Common\bin\Release\netstandard2.1\SoftGamesShop.Data.Common.dll
+C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Data\SoftGamesShop.Data.Common\bin\Release\netstandard2.1\SoftGamesShop.Data.Common.pdb
+C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Data\SoftGamesShop.Data.Common\obj\Release\netstandard2.1\SoftGamesShop.Data.Common.csprojAssemblyReference.cache
+C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Data\SoftGamesShop.Data.Common\obj\Release\netstandard2.1\SoftGamesShop.Data.Common.AssemblyInfoInputs.cache
+C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Data\SoftGamesShop.Data.Common\obj\Release\netstandard2.1\SoftGamesShop.Data.Common.AssemblyInfo.cs
+C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Data\SoftGamesShop.Data.Common\obj\Release\netstandard2.1\SoftGamesShop.Data.Common.csproj.CoreCompileInputs.cache
+C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Data\SoftGamesShop.Data.Common\obj\Release\netstandard2.1\SoftGamesShop.Data.Common.dll
+C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Data\SoftGamesShop.Data.Common\obj\Release\netstandard2.1\SoftGamesShop.Data.Common.pdb
