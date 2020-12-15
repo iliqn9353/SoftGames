@@ -42,12 +42,12 @@
                 .AddRoles<ApplicationRole>().AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddAuthentication().AddFacebook(options =>
             {
-                options.AppId = "2784516788474590";
-                options.AppSecret = "b30bb67cb49757d2ec0a5af02104f37e";
+                options.AppId = configuration["FacebookLogin:AppId"];
+                options.AppSecret = configuration["FacebookLogin:AppSecret"];
             }).AddGoogle(options =>
             {
-                options.ClientId = "205473250182-0oq6g2fbd3di5rprhu5jk174k1deokn8.apps.googleusercontent.com";
-                options.ClientSecret = "kw3w3U1o2ySTY9pKiGkAnt7u";
+                options.ClientId = configuration["GoogleLogin:ClientId"];
+                options.ClientSecret = configuration["GoogleLogin:Secret"];
             });
 
             services.Configure<CookiePolicyOptions>(
