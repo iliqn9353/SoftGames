@@ -518,3 +518,8 @@ C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Web\SoftGamesShop.
 C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Web\SoftGamesShop.Web\bin\Release\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
 C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Web\SoftGamesShop.Web\bin\Release\netcoreapp3.1\System.Diagnostics.PerformanceCounter.dll
 C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Web\SoftGamesShop.Web\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Web\SoftGamesShop.Web\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Web\SoftGamesShop.Web\bin\Release\netcoreapp3.1\Microsoft.Azure.SignalR.Common.dll
+C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Web\SoftGamesShop.Web\bin\Release\netcoreapp3.1\Microsoft.Azure.SignalR.dll
+C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Web\SoftGamesShop.Web\bin\Release\netcoreapp3.1\Microsoft.Azure.SignalR.Protocols.dll
+C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Web\SoftGamesShop.Web\obj\Release\netcoreapp3.1\Razor\Views\Home\Chat.cshtml.g.cs

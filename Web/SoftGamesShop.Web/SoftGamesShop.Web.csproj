@@ -10,10 +10,6 @@
     <CodeAnalysisRuleSet>..\..\Rules.ruleset</CodeAnalysisRuleSet>
     <ApplicationInsightsResourceId>/subscriptions/f23bcc71-a3be-4771-b306-207ab22c807a/resourceGroups/softgames/providers/microsoft.insights/components/softgames</ApplicationInsightsResourceId>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Content Remove="Views\Home\Chat.cshtml" />
-  </ItemGroup>
   <ItemGroup>
     <AdditionalFiles Include="..\..\stylecop.json" />
   </ItemGroup>
@@ -26,6 +22,7 @@
     <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.2.7" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.Facebook" Version="3.1.9" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="3.1.9" />
+    <PackageReference Include="Microsoft.Azure.SignalR" Version="1.4.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.10">
@@ -61,9 +58,5 @@
     <Folder Include="wwwroot\images\Logo\" />
     <Folder Include="wwwroot\images\User\" />
     <Folder Include="wwwroot\Json\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="Views\Home\Chat.cshtml" />
   </ItemGroup>
 </Project>
