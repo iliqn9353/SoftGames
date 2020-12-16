@@ -10,7 +10,7 @@
     using SoftGamesShop.Services.Mapping;
     using SoftGamesShop.Web.ViewModels.Comment;
 
-    public class SingleGameViewModel : IMapFrom<Game>,IMapTo<Game>, IHaveCustomMappings
+    public class SingleGameViewModel : IMapFrom<Game>, IMapTo<Game>, IHaveCustomMappings
     {
         public int Id { get; set; }
 

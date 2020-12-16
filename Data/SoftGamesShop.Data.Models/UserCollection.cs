@@ -1,8 +1,9 @@
 ﻿namespace SoftGamesShop.Data.Models
 {
-    using SoftGamesShop.Data.Common.Models;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations.Schema;
+
+    using SoftGamesShop.Data.Common.Models;
 
     public class UserCollection : BaseDeletableModel<int>
     {

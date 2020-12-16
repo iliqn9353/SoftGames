@@ -9,26 +9,18 @@
 </head>
 <h1 class="text-center mt-2">My Collection</h1>
 
-
 <div class="row mt-2 mb-4">
 
     @foreach (SoftGamesShop.Web.ViewModels.Collection.MyCollectionViewModel game in Model)
     {
-
-
         <div class="card col-6 col-lg-3 game-card">
-            <img class="card-img-top" alt="@game.Name" src="@game.ImageUrl"
-                  
+            <img class="card-img-top" alt="@game.Name" src="@game.ImageUrl"      
                              height="350" width="200">
-
             <div class="card-body">
-
                 <h5 class="card-title text-center">
                     <a asp-controller="Games" asp-action="ById" asp-route-id="@game.GameId">@game.Name  </a>
                 </h5>
-
                 <a href="/UserCollection/RemoveFromCollection?gameId=@game.GameId" class="btn btn-block btn-danger">Remove from Collection</a>
-
             </div>
         </div>
     }

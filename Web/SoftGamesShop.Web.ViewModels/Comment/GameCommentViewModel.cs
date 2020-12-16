@@ -1,8 +1,7 @@
 ﻿namespace SoftGamesShop.Web.ViewModels.Comment
 {
     using System;
-    using System.Collections.Generic;
-    using System.Text;
+
     using Ganss.XSS;
     using SoftGamesShop.Data.Models;
     using SoftGamesShop.Services.Mapping;

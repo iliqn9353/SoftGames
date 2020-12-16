@@ -4,15 +4,13 @@ using SoftGamesShop.Data.Models;
 using SoftGamesShop.Data.Repositories;
 using SoftGamesShop.Services.Mapping;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
 namespace SoftGamesShop.Services.Data.Tests
 {
-   public class RatingServiceTests
+    public class RatingServiceTests
     {
         public class MyTestGameAll : IMapFrom<Rating>
         {

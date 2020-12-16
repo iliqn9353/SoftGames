@@ -2,8 +2,6 @@
 @{
     this.ViewBag.Title = "Chat";
 }
-
-
 <head>
     <style>
         body {
@@ -17,13 +15,11 @@ div.panel-body { overflow: auto; background: url('https://www.romamoulding.com/w
 <h2 class="text-center">Game Chat <i class="fa fa-paper-plane fa-fw"></i></h2>
 <p class="text-center">Welcome to our live chat!</p>
 
-    
     <div class="panel-body" id="messagesList" style="height:250px;width:auto">
         <input type="hidden" id="displayname" />
 
         <p id="discussion"></p>
     </div>
-  
     <div class="panel-footer">
         <div class="input-group">
             <input id="messageInput" type="text" name="message" class="form-control input-sm" placeholder="Type your message here..." />
@@ -34,7 +30,6 @@ div.panel-body { overflow: auto; background: url('https://www.romamoulding.com/w
             </span>
         </div>
     </div>
-
 
 @section Scripts {
     <script>

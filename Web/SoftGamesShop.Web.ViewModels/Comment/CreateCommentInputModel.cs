@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SoftGamesShop.Web.ViewModels.Comment
+﻿namespace SoftGamesShop.Web.ViewModels.Comment
 {
-   public class CreateCommentInputModel
+    public class CreateCommentInputModel
     {
         public int GameId { get; set; }
 

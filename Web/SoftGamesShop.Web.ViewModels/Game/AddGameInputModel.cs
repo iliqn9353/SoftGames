@@ -27,8 +27,9 @@
         [Display(Name = "Release Date")]
         public DateTime ReleaseDate { get; set; }
 
-        [RegularExpression(@"^(https?\:\/\/)?(www\.youtube\.com|youtu\.?be)\/.+$",
-       ErrorMessage = "Only YouTube Links Allowed!")]
+        [RegularExpression(
+            @"^(https?\:\/\/)?(www\.youtube\.com|youtu\.?be)\/.+$",
+            ErrorMessage = "Only YouTube Links Allowed!")]
         [Display(Name = "Trailer (YouTube)",Prompt = "https://www.youtube.com/watch?v=oHg5SJYRHA0&ab_channel=cotter548")]
         public string Trailer { get; set; }
 

@@ -1,12 +1,7 @@
 ﻿namespace SoftGamesShop.Web.ViewModels.Collection
 {
     using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
 
-    using AutoMapper;
-    using Microsoft.AspNetCore.Http;
     using SoftGamesShop.Data.Models;
     using SoftGamesShop.Services.Mapping;
 

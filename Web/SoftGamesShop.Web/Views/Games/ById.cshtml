@@ -6,10 +6,6 @@
             body {
                 background-image: url('https://cdn.wallpapersafari.com/82/19/F9ielj.jpg');
             }
-
-            #removeFavourite {
-                display: none;
-            }
         </style>
     </head>
  void DisplayComments(int? parentId)
@@ -165,9 +161,6 @@
 </div>
 
 
-
-
-
 <article>
     @Html.Raw(Model.SanitizedContent)
 </article>
@@ -177,8 +170,6 @@
 <div class="px-4 pt-3"> <button type="button" class="btn btn-primary float-right" onclick="showAddCommentForm(0)"><i class="fa fa-comment"></i>&nbsp; Comment</button> </div>
 <div class="clearfix"></div>}
 @{ DisplayComments(null); }
-
-
 
 
 

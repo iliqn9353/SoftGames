@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Moq;
 using SoftGamesShop.Data;
 using SoftGamesShop.Data.Models;
 using SoftGamesShop.Data.Repositories;
@@ -11,7 +10,7 @@ using Xunit;
 
 namespace SoftGamesShop.Services.Data.Tests
 {
-   
+
     public class GameServiceTests
     {
 
