@@ -3,8 +3,6 @@ using SoftGamesShop.Data;
 using SoftGamesShop.Data.Models;
 using SoftGamesShop.Data.Repositories;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
