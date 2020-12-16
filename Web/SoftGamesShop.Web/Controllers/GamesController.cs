@@ -107,12 +107,16 @@
                 return this.RedirectToAction("SearchByGameName", new { id = id, search = search.GameName });
             }
 
-            return this.Redirect("Views/Error/NotFound.cshtml");
+            return this.View("Views/Error/NotFound.cshtml");
         }
 
         public IActionResult SearchByGameName(int id, string search)
         {
             var games = this.gamesService.GetByName<AllGamesViewModel>(search);
+            if (games.Count() == 0)
+            {
+                return this.View("Views/Error/NotFound.cshtml");
+            }
 
             var result = this.gamesService.PaginationGames<AllGamesViewModel>(id, games, ItemsPerPage);
             var viewModel = new AllGamesListSearchViewModel
