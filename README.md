@@ -22,6 +22,8 @@ comment on each game and reply to other users there is a live chat so u can chat
 * SignalR
 * Facebook for developers
 * Google for developers
+* Xunit
+* Azure
 
 ### Home Page
 ![home](https://user-images.githubusercontent.com/55882205/101983859-36f14d80-3c86-11eb-8366-f6ebe6e4d79f.png)
