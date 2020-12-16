@@ -141,6 +141,7 @@ C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Web\SoftGamesShop.
 C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Web\SoftGamesShop.Web\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\Games\deed1ac7-427b-4920-be74-3a8c84fd55ad.jpg
 C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Web\SoftGamesShop.Web\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\Games\dfd2ff6c-780a-4213-885f-51e1e15ede06.jpg
 C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Web\SoftGamesShop.Web\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\Games\e108e741-a78f-4028-b555-1e7ddc99c558.jpg
+C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Web\SoftGamesShop.Web\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\Games\e358a335-ccd9-4937-9436-2788d538a743.jpg
 C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Web\SoftGamesShop.Web\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\Games\e616a714-cd5d-4dd5-8c80-1cbc4d598883.jpg
 C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Web\SoftGamesShop.Web\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\Games\e88a1bc9-3161-47c3-a112-f42fdbb47fd0.jpg
 C:\Users\Ico\Desktop\SoftGamesShop-newest-down-main-main-main\Web\SoftGamesShop.Web\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\Games\e8a5114a-9334-40fe-9317-da5dacbf7080.jpg

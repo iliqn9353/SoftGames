@@ -1,13 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Moq;
 using SoftGamesShop.Data;
-using SoftGamesShop.Data.Common.Repositories;
 using SoftGamesShop.Data.Models;
 using SoftGamesShop.Data.Repositories;
 using SoftGamesShop.Services.Mapping;
-using SoftGamesShop.Web.ViewModels.Game;
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Xunit;
@@ -226,6 +223,36 @@ namespace SoftGamesShop.Services.Data.Tests
             var game = service.GetByName<MyTestGameSearch>(search);
             Assert.Single(game);
         }
+
+        public class MyTestGameCount : IMapFrom<Game>
+        {
+
+            public string Name { get; set; }
+        }
+
+      [Fact]
+        public async Task TestGameCount()
+        {
+            var options = new DbContextOptionsBuilder<ApplicationDbContext>()
+                  .UseInMemoryDatabase(Guid.NewGuid().ToString());
+            //var search = string.Empty;
+
+            var repositoryGame = new EfDeletableEntityRepository<Game>(new ApplicationDbContext(options.Options));
+            var repositoryGenre = new EfDeletableEntityRepository<Genre>(new ApplicationDbContext(options.Options));
+            var repositoryPlatform = new EfDeletableEntityRepository<Platform>(new ApplicationDbContext(options.Options));
+            var repositoryRating = new EfDeletableEntityRepository<Rating>(new ApplicationDbContext(options.Options));
+            repositoryGame.AddAsync(new Game { Name = "Ico" }).GetAwaiter().GetResult();
+            repositoryGame.AddAsync(new Game { Name = "Gogo" }).GetAwaiter().GetResult();
+
+
+            repositoryGame.SaveChangesAsync().GetAwaiter().GetResult();
+            var service = new GameService(repositoryGame, repositoryGenre, repositoryPlatform, repositoryRating);
+            AutoMapperConfig.RegisterMappings(typeof(MyTestGameCount).Assembly);
+            var game = service.GetCount();
+            Assert.Equal(2,game);
+        }
+
+    
 
     }
 }
