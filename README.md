@@ -5,12 +5,12 @@
 
 **SoftGames** is my defense project for **ASP.NET Core** course at [SoftUni](https://softuni.bg/trainings/3177/asp-dot-net-core-october-2020/internal). It is a ready-to-use ASP.NET Core application.
 
-## :pencil: Project Description
+## :pencil: Project Description :pencil:
 This is a game database for all gamers. You can browse our games,
 add new ones,save them to your personal collection,watch game trailers,
 comment on each game and reply to other users there is a live chat so u can chat with each other you can send us an email and search for your favorite game!
 
-## :hammer: Used technologies
+## :hammer: Used technologies :hammer:
 * ASP.NET [CORE 3.1](https://dotnet.microsoft.com/download/dotnet-core/3.1 "CORE 3.1") MVC
 * ASP.NET Core areas
 * Entity Framework [CORE 3.1](https://docs.microsoft.com/en-us/ef/core/ "CORE 3.1")
@@ -26,22 +26,29 @@ comment on each game and reply to other users there is a live chat so u can chat
 * Azure
 
 ### Home Page
-![home](https://user-images.githubusercontent.com/55882205/101983859-36f14d80-3c86-11eb-8366-f6ebe6e4d79f.png)
+![Home](https://user-images.githubusercontent.com/55882205/102489596-5ddcc480-4076-11eb-979c-9b551ecf2b77.png)
 
 ### Add game Page
-![create](https://user-images.githubusercontent.com/55882205/101935699-2094b480-3be8-11eb-8708-63c46b1e6d7d.png)
+![NEW GAME](https://user-images.githubusercontent.com/55882205/102489665-764cdf00-4076-11eb-83e6-d277f93e34e8.png)
 
 ### My Collection Page
-![collection](https://user-images.githubusercontent.com/55882205/101935780-41f5a080-3be8-11eb-8f06-5a613a9b8a21.png)
+![COLLECTION](https://user-images.githubusercontent.com/55882205/102489691-81a00a80-4076-11eb-925a-3ad3549ac7c0.png)
+
+### Details Page
+![DETAILS](https://user-images.githubusercontent.com/55882205/102490012-f4a98100-4076-11eb-8795-ff6da77b964f.png)
 
 ### Chat Page
-![chat](https://user-images.githubusercontent.com/55882205/101935833-546fda00-3be8-11eb-8bc4-b675e0c80ab2.png)
+![chat](https://user-images.githubusercontent.com/55882205/102490032-fc692580-4076-11eb-9824-a702a1b3dc0b.png)
 
 ### All Games Page
-![all games](https://user-images.githubusercontent.com/55882205/101935864-62bdf600-3be8-11eb-9022-711f98732b33.png)
+![All Games](https://user-images.githubusercontent.com/55882205/102490077-068b2400-4077-11eb-9f58-a4eaa346135b.png)
 
 ### Contact  Page
-![contacts](https://user-images.githubusercontent.com/55882205/101935907-736e6c00-3be8-11eb-8ab1-2ba7bff7f38b.png)
+![Contact](https://user-images.githubusercontent.com/55882205/102490107-0f7bf580-4077-11eb-9b19-08d04f5b6584.png)
+
+### Login  Page
+![login](https://user-images.githubusercontent.com/55882205/102490150-1e62a800-4077-11eb-90c8-c26707e10be1.png)
+
 
 ## Author
 
