@@ -5,7 +5,6 @@
     using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Identity;
     using Microsoft.AspNetCore.Mvc;
-    using SoftGamesShop.Data;
 
     using SoftGamesShop.Data.Models;
     using SoftGamesShop.Services;
