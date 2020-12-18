@@ -33,5 +33,21 @@ namespace SoftGamesShop.Services.Data.Tests
             var platform = service.GetAll<MyTestGameAll>();
             Assert.Equal(1, platform.Count());
         }
+
+        [Fact]
+        public async Task TestGetAllKeyValue()
+        {
+            var options = new DbContextOptionsBuilder<ApplicationDbContext>()
+                .UseInMemoryDatabase(Guid.NewGuid().ToString());
+            var repositoryPlatform = new EfDeletableEntityRepository<Platform>(new ApplicationDbContext(options.Options));
+            repositoryPlatform.AddAsync(new Platform { Type = "test" }).GetAwaiter().GetResult();
+            repositoryPlatform.SaveChangesAsync().GetAwaiter().GetResult();
+            var service = new PlatformService(repositoryPlatform);
+            AutoMapperConfig.RegisterMappings(typeof(MyTestGameAll).Assembly);
+
+
+            var platform = service.GetAllAsKeyValuePairs();
+            Assert.Equal(1, platform.Count());
+        }
     }
 }

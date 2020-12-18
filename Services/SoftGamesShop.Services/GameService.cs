@@ -151,7 +151,7 @@
              .To<T>().ToList();
         }
 
-        IEnumerable<T> IGamesService.PaginationGames<T>(int id, IEnumerable<T> data, int max)
+        public IEnumerable<T> PaginationGames<T>(int id, IEnumerable<T> data, int max)
         {
             int skip = (id - 1) * max;
             var resultData = data.Skip(skip).Take(max).ToList();

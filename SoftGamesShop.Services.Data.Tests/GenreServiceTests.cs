@@ -53,5 +53,21 @@ namespace SoftGamesShop.Services.Data.Tests
             var game = service.GetByName<MyTestGameSearch>(search);
             Assert.Equal(search,game.Name);
         }
+
+        [Fact]
+        public async Task TestGetAllKeyValue()
+        {
+            var options = new DbContextOptionsBuilder<ApplicationDbContext>()
+                .UseInMemoryDatabase(Guid.NewGuid().ToString());
+            var repositoryGenre = new EfDeletableEntityRepository<Genre>(new ApplicationDbContext(options.Options));
+            repositoryGenre.AddAsync(new Genre { Name = "test" }).GetAwaiter().GetResult();
+            repositoryGenre.SaveChangesAsync().GetAwaiter().GetResult();
+            var service = new GenreService(repositoryGenre);
+            AutoMapperConfig.RegisterMappings(typeof(MyTestGameAll).Assembly);
+
+
+            var genre = service.GetAllAsKeyValuePairs();
+            Assert.Equal(1, genre.Count());
+        }
     }
 }
